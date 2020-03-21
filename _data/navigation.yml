@@ -23,7 +23,7 @@ main_dropdown:
    items:
      - title: Topics
        url: /topics/
-     - title: JavaScript Typics
+     - title: JavaScript Topics
        url: /jstopics/       
      - title: Patterns
        url: /patterns/

@@ -5,7 +5,7 @@ plugins:
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
 url: https://ucsb-cs48.github.io # the base hostname & protocol for your site
-baseurl: /w20  # the subpath of your site, e.g. "/blog"
+baseurl: /s20  # the subpath of your site, e.g. "/blog"
 
 include:
   - _pages
@@ -16,20 +16,20 @@ exclude:
   - .bundle
 
 course: "CS48"
-qtr: "W20"
-qxx: "w20"
-quarter: "Winter 2020"
-piazza_url: piazza.com/ucsb/winter2020/cs48
-gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=65754
-github_org_name: ucsb-cs48-w20
-github_org_url: https://github.com/ucsb-cs48-w20
-slack_url: https://ucsb-cs48-w20.slack.com
+qtr: "S20"
+qxx: "S20"
+quarter: "Spring 2020"
+piazza_url: TBD
+gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=76516
+github_org_name: ucsb-cs48-s20
+github_org_url: https://github.com/ucsb-cs48-s20
+slack_url: https://ucsb-cs48-s20.slack.com
 
-ta_list: "Harlan Kringen, Richa Wadaskar"
-ta_list_full: "Harlan Kringen, Richa Wadaskar"
-mentors_list: "Anu Polishetty, Connor Daly, Ekta Shahani, JingJing Yu, Terrell Marshall"
+ta_list: "Scott Chow"
+ta_list_full: "Scott Chow"
+mentors_list: "Bryan Terce, Andrew Lu"
 
-github_url: https://github.com/ucsb-cs48/w20
+github_url: https://github.com/ucsb-cs48/s20
 mentor_url: https://ucsb-cs48-pconrad-mentors.github.io
 
 on_campus: http://proquest.safaribooksonline.com
@@ -43,32 +43,22 @@ legacy_wiki_name: "48wiki"
 submit_cs_course: TBD
 
 start_week: 1
-start_date: 2019-01-06 
+start_date: 2020-03-29 
 num_weeks: 10
 extra_exam_week: true
-sections: "4pm,&nbsp;5pm,&nbsp;6pm"
-
-start_week: 1
-start_date: 2020-01-05
-num_weeks: 10
-extra_exam_week: true
-sections: "4pm,&nbsp;5pm,&nbsp;6pm"
+sections: "noon,&nbsp;1pm,&nbsp;2pm&nbsp;3pm"
 
 cal_dates: >
   [
-    {"label":"W20 1st day of instruction", "date":"2020-01-06" },	
-    {"label":"Univ Holiday", "date":"2020-01-20" },
-    {"label":"Univ Holiday", "date":"2020-02-17" },
-    {"label":"W20 instruction ends", "date":"2020-03-13" },
-    {"label":"W20 finals start", "date":"2020-03-14" },
-    {"label":"W20 finals end", "date":"2020-03-20" },
-    {"label":"W20 qtr ends", "date":"2020-03-20" }
+    {"label":"S20 1st day of instruction", "date":"2020-03-30" },	
+    {"label":"Univ Holiday", "date":"2020-05-25" },
+    {"label":"S20 instruction ends", "date":"2020-06-05" },
+    {"label":"S20 finals start", "date":"2020-06-06" },
+    {"label":"S20 finals end", "date":"2020-06-12" },
+    {"label":"S20 qtr ends", "date":"2020-06-12" }
   ]
 
-
-
 hwk_drop_lowest: three
-
 
 kramdown:
    parse_block_html: false
