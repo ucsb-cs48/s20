@@ -22,6 +22,7 @@ permalink: "/"
 {% include collapse-button.html label="Demos" id="demos" %}
 <div class="collapse" id="projects">
  <div class="card card-body">
+     {% include demos.html %}
  </div>
 </div>
 
