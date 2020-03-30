@@ -1,66 +1,82 @@
 ---
-desc: First day of class
-lecture_date: 2020-01-06 14:00
+desc: First Section
+lecture_date: 2020-03-30
 num: lect00
 ready: true
 
 ---
+
+Even though this says "lecture", I'm going to use it for
+notes on discussion sections and lecture alike.
 
 # Announcements
 
 * Sorry, no crashers: enrollment is final
 * Must attend your actual enrolled discussion section
    * And work with folks enrolled in that section
-* [Open lab hours schedule]({{ '/info/open_lab_hours' | relative_url}})
+
+# "Open Lab Hours"
+
+* There is one TA, Scott Chow
+* There are four LAs as of right now (there may be more later)
+
+* LAs for noon/1pm, and 3:30 lecture
+  * Andrew Lu, Cole Bergmann
+
+* LAs for 2pm/3pm and 5pm lecture
+  * Bryan Terce, Kristin Hu
+
+We will have some kind of online office hours / open lab hours
+where the instructor, TA and LAs will be available.
+
+We haven't had a chance to work out the details yet.  Stay tuned.
+  
+
+# Goals for today
+
+* Get comfortable with Zoom
+* Ask questions
+* Meet some of your classmates
+
+# Zoom practice
+
+Everyone find:
+* The participant list
+* The raise hand / lower hand button
+  * Practice with raising and lowering hand
+* The zoom chat window
+  * Through we'll more often use the section / lecture Slack channel
+* The course website <http://ucsb-cs48.github.io>
+
+# Breakout group practice
+
+In your breakout groups:
+* Unmute yourself
+* Say your name, year
+* Share "a rose and a thorn"
+  * A rose: something positive that you are encouraged by,
+    a source of happiness.
+  * A thorn: something challenging that set you back,
+    or that you will need to overcome.
+* Practice sending up the signal that your group needs help.
+  * Somewhere in the breakout room, there should be a place
+    where you can indicate that the group needs help from a host.
+  * See if you can find that and send up the signal.
+* If extra time, discuss
+  * Any thoughts about how to stay healthy and connected
+  * Tips / tricks for getting through S20
+* At some point, you'll get a signal that we are reconvening
+  in the main room.
+
+# Reconvening: Q & A
+
+This is an "ask me anything" session.
+
+I may not have answers.  We are still figuring this all out in real time.
+
+But I'll do my best.
 
 
-# Goals
+# Tuesday and Thursday will be vital to group formation
 
-* You'll meet several of your classmates that you haven't met before
-* You'll generate and evaluate some project ideas
-
-Today, we'll divide into discussion sections, and do some activities that will help with team formation and project idea generation:
-
-We will do these activities in three groups of 26, by discussion section.
-
-# Handouts
-
-We handed out ic00 first, and then ic01 only after ic00 was finished.
-
-* [ic00: Project Idea Sheet](https://docs.google.com/document/d/1qnNLa88lrxln2vjXscEUiIB1qonXCJbmOkQjNiYg_FU/edit?usp=sharing)
-* [ic01: Meet your Teammates](https://docs.google.com/document/d/1R0A2T4M17KnRj60H3VHS99aZg2q7Gf3JSxV-e1Au4G0/edit?usp=sharing)
-
-
-# Instructor Instructions
-
-## Seating arrangement
-
-Divide chairs first into separate sections of the room, by discussion section.
-
-Then, arrange students so that you can acheive a kind of "speed dating" setup, where the students in one set of chairs stays stationary, while the students in the other set rotate every 5-10 minutes.
-
-Then, WITHIN each discussion section, arrange chairs into any 
-* two rows facing each other (e.g. for 26 students, 13 pairs of chairs facing each other)
-* multiple rows facing each other (e.g. for 26 students, one row of 6 pairs of chairs facing each other (12 students) and another of 7 pairs of chairs facing each other (14 students)
-* an outer circle and and inner circle (this is the best arrangement, but may require more space than the space available; inner circle might get too cramped)
-
-## Initial writing activity (done in silence)
-
-The initial writing activity is done individually, in silence, with no discussion.
-
-It is to come up with a project idea.
-
-## Subsequent activity
-
-In this activity, students swap project ideas and THEN rotate once.   
-* Each pair of students now holds a project idea different from the one they or the person initially across from them wrote.  
-* They then discuss the project ideas they now hold with each other.
-* They also do a brief interview with each other.
-* They write down the results of these interactions, including both a rating of the project idea
-* And then they iterate; swapping project ideas, and rotating AGAIN
-
-Repeat this 5 times, so that each project idea has been rated and reviewed 5 times.
-
-
-
-
+Please be there!
