@@ -68,6 +68,14 @@ In your breakout groups:
 * At some point, you'll get a signal that we are reconvening
   in the main room.
 
+# A few more notes 
+
+Below this line, these were not up during the noon session.
+
+* There is a new product for accessing CSIL: Remote Desktop
+  * Give it a try: <https://doc.engr.ucsb.edu/display/EPK/Remote+Access+to+Computer+Science+Computing+Labs>
+
+
 # Reconvening: Q & A
 
 This is an "ask me anything" session.
