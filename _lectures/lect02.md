@@ -11,4 +11,3 @@ We'll also discuss a bit more how the whole quarter will run.
 
 # The Slack: `_articles` vs. `_help` channels
 
-Fix typo here
