@@ -10,3 +10,5 @@ We'll discuss the two tech stacks, as well as the project ideas that you generat
 We'll also discuss a bit more how the whole quarter will run.
 
 # The Slack: `_articles` vs. `_help` channels
+
+Fix typo here
