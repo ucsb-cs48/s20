@@ -2,7 +2,7 @@
 desc: "Monday Section: Initial README, Team Agreements"
 lecture_date: 2020-04-06
 num: lect03
-ready: false
+ready: true
 ---
 
 # Teams are Assigned
