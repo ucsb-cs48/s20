@@ -81,10 +81,31 @@ Of course, unavoidable absences should be rare if you are going to remain in goo
 
 Today, during your breakout sessions, you should accomplish the following tasks:
 
-(1) Add an initial README.md, .gitignore, and LICENSE.md, and team/AGREEMENTS.md to your repo. (Details below)
-(2) Start a discussion of your team agreements / team norms. (Details below)
-(3) Record whatever agreements you are able to reach in team/AGREEMENTS.md
-    
+1. Add an initial README.md, and team/AGREEMENTS.md to your repo. (Details below)
+2. Start a discussion of your team agreements / team norms. (Details below)
+3. Record whatever agreements you are able to reach in team/AGREEMENTS.md
+  
+# Initial README.md
+
+One member of the group should go to the page for the repo, e.g.
+
+* <https://github.com/ucsb-cs48-s20/project-s3-t2-meal-plan>
+
+On the page for your team, you should see a screen like this one:
+
+![new emptu repo screen]({{ 'new-empty-repo.png' | relative_path }})
+
+Click on the work `README` in the sentence `We recommend every repository include a README, LICENSE, and .gitignore.`
+
+In your README.md, put the following:
+
+* The name of your project
+* A one sentence description of your project
+* A list of the full names and github ids of the members of your project team
+
+
+
+
 # If you run out of time
 
 If you run out of time, the agreement discussion can be continued outside of class over the slack, and during the next lecture.
@@ -93,8 +114,12 @@ If you run out of time, the agreement discussion can be continued outside of cla
 
 If you finish all of the above, you can start on a discussion of the following things.  These are discussions that will carry over into Tuesday and Thursday lectures, but you can start them now if you've finished the items above.
 
+Add to your README.md:
+
 * Which tech stack your group plans to use
 * Some initial planning about what what you want your app to do for the user.
+
+
 
 # Which tech stack
 
@@ -103,6 +128,15 @@ We've provided a lot of information for you already, and when we formed groups, 
 If you have questions, or need guidance, ask the course staff (Prof. Conrad, Scott, Andrew L, Bryan T, Cole B., Kristin H, and Victor S.).
 
 # Planning your app 
+
+For the second item, focus on writing *a single paragraph* in which you go into a bit more detail about what you plan for your project.
+
+* This is NOT intended to be a full specification of what you are going to build.  It is just an opportunity to *briefly* 
+  add a bit more detail that wouldn't fit into the one-sentence description.
+* Later this week, we'll be going through some "user-story mapping" exercises to do a more detailed design, 
+  so don't get bogged down trying to make this paragraph comprehensive or perfect.  It's just a first step.
+
+Some things to consider:
 
 How many different kinds of users are there, and what are their roles?
 
@@ -117,6 +151,22 @@ Examples:
 
 Think about the fact that your app will be available on the public internet.  If your app allows user contributed content of any kind, there is the potential for inappropriate content (spam, or worse) to be added.   One option is restrict your user base to folks with an `@ucsb.edu` login; we can provide example code for both Spring Boot and next.js that you can build on to add this feature to your app.
 
+What will each different kind of user be able to do in your app?
+* What are their goals in using their app?
+* How does your app allow them to accomplish their goal?
+
+# Future steps: `.gitignore` and `LICENSE.md`
+
+Two future steps will be to also add `.gitignore` and a `LICENSE.md`
 
 
+The `.gitignore` will depend on your tech stack choice.
+* Create a file called `.gitignore` in the root of your repo
+* For Spring Boot project, we recommend the contents from this article: <https://ucsb-cs48.github.io/javatopics/gitignore_maven/>
+* For next.js, a good start is the `.gitignore` for Node, found here: <https://github.com/github/gitignore/blob/master/Node.gitignore>
 
+
+For the `LICENSE.md`:
+* Consult <https://choosealicense.com/>.
+* The [MIT license](https://choosealicense.com/licenses/mit/) is a reasonable choice if you don't want to spend too much time troubling over this.
+* Create a file called `LICENSE.md` in the root of your repo, and copy the license terms into that file.
