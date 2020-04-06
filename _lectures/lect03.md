@@ -9,7 +9,7 @@ ready: false
 
 You should have been:
 - invited to a team channel on the [Slack](https://ucsb-cs48-s20.slack.com)
-- added to one of the [teams](https://github.com/ucsb-cs48-s20/teams) on the [ucsb-cs48-s20 Github org](https://github.com/ucsb-cs48-s20).
+- added to one of the [teams](https://github.com/orgs/ucsb-cs48-s20/teams) on the [ucsb-cs48-s20 Github org](https://github.com/ucsb-cs48-s20).
 - given admin access to a project repo for your team
 - given read-only access to a FEEDBACK repo for your team
 
