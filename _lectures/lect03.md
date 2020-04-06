@@ -121,7 +121,6 @@ You then might add a few more.
 
 Consult these article for ideas:
 
-* <https://ucsb-cs48.github.io/topics/teams/>
 * <https://ucsb-cs48.github.io/topics/teamwork/>
 
 
