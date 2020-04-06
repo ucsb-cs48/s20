@@ -81,10 +81,9 @@ Of course, unavoidable absences should be rare if you are going to remain in goo
 
 Today, during your breakout sessions, you should accomplish the following tasks:
 
-1. Add an initial README.md, and team/AGREEMENTS.md to your repo. (Details below)
-2. Start a discussion of your team agreements / team norms. (Details below)
-3. Record whatever agreements you are able to reach in team/AGREEMENTS.md
-  
+1. Add an initial `README.md` (details below)
+2. Start a discussion of your team agreements / team norms and record whatever agreements you are able to reach in `team/AGREEMENTS.md` (details below)
+ 
 # Initial README.md
 
 One member of the group should go to the page for the repo, e.g.
@@ -103,7 +102,27 @@ In your README.md, put the following:
 * A one sentence description of your project
 * A list of the full names and github ids of the members of your project team
 
+# `team/AGREEMENTS.md`
 
+Under a directory called `team`, create a file called `AGREEMENTS.md`.
+
+In this file, you'll first put the names of the members of your team.
+
+Then, you'll enter a list of agreements.   These are things that you all agree are good practices for creating a harmonious productive team.
+
+As a suggestion, the first few team agreements, might be these:
+
+1. When one of us is absent for an unavoidable reason, we will let the other team members know on the team slack channel, in advance when possible, as soon as possible afterwards when not.
+2. We will each try to keep such absences to a minimum.
+3. Those of us that are present will do our best to share with the absent team member(s) what they missed and help them get back up to speed.
+4. We will all do our best to contribute to the teams success.
+
+You then might add a few more.    
+
+Consult these article for ideas:
+
+* <https://ucsb-cs48.github.io/topics/teams/>
+* <https://ucsb-cs48.github.io/topics/teamwork/>
 
 
 # If you run out of time
