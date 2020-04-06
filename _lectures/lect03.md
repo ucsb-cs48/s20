@@ -1,5 +1,5 @@
 ---
-desc: Monday Section, 
+desc: "Monday Section: Initial README, Team Agreements"
 lecture_date: 2020-04-06
 num: lect03
 ready: false
