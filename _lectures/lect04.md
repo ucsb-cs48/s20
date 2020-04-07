@@ -5,6 +5,15 @@ num: lect04
 ready: true
 ---
 
+# Homework for Thursday 
+
+* <https://ucsb-cs48.github.io/s20/hwk/h00/>
+
+# Thursday's topics
+
+* User Stories
+* Minimum Viable Product
+
 # Breakout work today
 
 Today, during your breakout sessions, you should accomplish the following tasks:
