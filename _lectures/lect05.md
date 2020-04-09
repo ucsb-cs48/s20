@@ -1,7 +1,7 @@
 ---
 desc: "Thursday Lecture: user stories and MVP, then next.js intro, OR user stories"
 lecture_date: 2020-04-07
-num: lect04
+num: lect05
 ready: true
 ---
 
