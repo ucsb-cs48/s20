@@ -77,6 +77,19 @@ At the end of the game, the overall *Winner* is the one with the most cards.
 Some sample cards:
 
 ![card01]({{'card01.png' | relative_url }})
+![card02]({{'card02.png' | relative_url }})
+![card03]({{'card03.png' | relative_url }})
+![card04]({{'card04.png' | relative_url }})
+
+Now, consider these four proposals for building this product.  This illustrates an iterative approach to getting to an MVP
+
+# Proposal 1
+
+# Proposal 2
+
+# Proposal 3
+
+# Proposal 4
 
 
 # Breakout work today
