@@ -5,6 +5,15 @@ num: lect04
 ready: true
 ---
 
+# Outline of today
+
+* Hwk for Monday <https://ucsb-cs48.github.io/s20/hwk/h01/>
+* A few remarks about Agile
+* A brief MVP (minimum viable product) case-study
+* A choice
+  - Lecture/Demo by Scott Chow on next.js based on <https://nextjs.org/learn/basics/getting-started/setup>
+  - Work in your teams on defining your MVP
+
 # Homework for Monday Midnight 
 
 * <https://ucsb-cs48.github.io/s20/hwk/h01/>
@@ -76,20 +85,128 @@ At the end of the game, the overall *Winner* is the one with the most cards.
 
 Some sample cards:
 
-![card01]({{'card01.png' | relative_url }})
-![card02]({{'card02.png' | relative_url }})
-![card03]({{'card03.png' | relative_url }})
-![card04]({{'card04.png' | relative_url }})
+![card01]({{'/lectures/lect05/card01_25pct.png' | relative_url }})
+![card02]({{'/lectures/lect05/card02_25pct.png' | relative_url }})
+![card03]({{'/lectures/lect05/card03_25pct.png' | relative_url }})
+![card04]({{'/lectures/lect05/card04_25pct.png' | relative_url }})
 
-Now, consider these four proposals for building this product.  This illustrates an iterative approach to getting to an MVP
+Now, consider these four proposals for building this product.  This illustrates an iterative approach to getting to an MVP.
+
+These are actual excerpts from an email conversation between Phill Conrad and
+Colleen Lewis, shared with permission.
 
 # Proposal 1
 
+Email from Phill to Colleen:
+
+> What if I made an online version of the game so that folks could play over Zoom (or other video conference tool)
+>
+> I.e. a website with the content that
+> * allows anywhere from three to six players to join a session
+> * keeps track of whose turn it is
+> * displays the next card
+> * gives each person except the one who's "it" a chance to type in their answer
+> * when everyone has typed in an answer reveals them all at the same time
+> * allows the person who is "it" to select the winner for that round
+>
+> I'm teaching a web dev course this quarter and I need a demo project to work on anyway.  
+>
+> Let me know your thoughts.
+
 # Proposal 2
+
+Collen's reply to Phill:
+
+> That's awesome! If you're up for making it! That's great!
+> 
+> I can imagine a version - using zoom - where it would be a bit more similar to playing in person. I added some text in bold and crossed out things that then wouldn't be relevant. But - if you have a different vision for it -go for it! 
+>
+> * allows anywhere from three to six players to join a session 
+> * keeps track of whose turn it is
+> * displays the next card and people can say what they would do or pass.
+> * ~~gives each person except the one who's "it" a chance to type in their answer~~
+> * ~~when everyone has typed in an answer reveals them all at the same time~~
+> * allows the person who is "it" to select the winner for that round
+> * allows the person who is "it" to see the sample answer and read that. 
+>
+> :-) 
+> - Colleen
 
 # Proposal 3
 
+Phill to Colleen:
+
+> Sounds good to me... These revisions make it closer to a "minimum viable product" which is a good thing.   
+>
+> ...
+>
+> In fact, it occurs to me that the most minimum viable product is simply a site that would shuffle the deck and display the next card.     Period.
+>
+> On a video conf session, the host brings this up and does "share screen".   Who is "it" and the rest of game play can simply be done by the participants coordinating verbally.
+>
+> This makes the app something feasible to deliver very quickly.
+
+
 # Proposal 4
+
+Colleen to Phill:
+
+> Sure! Totally! That's a great point! I can even [imagine] a minimal viable product is a slide deck that has the questions and then on the next slide the question & answer on it. That would be cool to be able to show a client right away :-) 
+
+# Resolution
+
+Phill back to Colleen
+
+> That's perfect, because it illustrates the point that the MVP doesn't always involve code 
+> 
+
+> I heard the founder of one of the food delivery services (GrubHub, Doordash, not sure which one) describe their mvp one time.
+>
+> Their mvp was a static html page with a list of about five restaurants, each one a link to a scanned pdf of the menu, and a phone number to call.   
+> 
+> That was it.
+> 
+> From that mvp they learned SO MUCH that told them what to build, and what NOT to build, both from a technology standpoint, and a business standpoint.
+> 
+> If I can find the source, I'll link to it. 
+
+# Final Roadmap
+
+Note that you might never build the later iterations; you only keep developing as long as the extra features really, really add value.
+
+* Iteration 1: Powerpoint
+
+* Iteration 2: Webapp that mirrors the Powerpoint functionality.
+  * Iteration 2a: Just all the cards in order, with a button to reveal the sample answer.
+  * Iteration 2b: Randomizing the cards.
+
+* Iteration 3: Add a way to keep track of who is playing, and whose turn it is to be "it".
+
+* Iteration 4: Add "keeping score".  But the game is still shared over a zoom screen by just one participant.
+
+* Iteration 5: Add folks being "join a game" and see the screen for themselves (eliminating the need for anything more than a shared audio channel).
+
+* Iteration 6: A game that could be completely self contained over text chat that takes place inside the app.   Folks might still *want* to have audio and/or video open, but it would be an enhancement rather than necessary.    
 
 
 # Breakout work today
+
+Two options:
+
+# Option 1:
+
+* A demonstration/lecture by Scott Chow about how to get started with next.js
+* Link: <https://nextjs.org/learn/basics/getting-started/setup>
+
+# Option 2:
+
+* Add an MVP column to your Kanban board.
+
+We'll put you all in breakout groups.
+
+* In your group discuss whether you want to hear the next.js lecture/demo or work on your teams on your MVP.
+* If you want to hear the next.js lecture, just return to the main group.
+* Otherwise, work in your teams.
+* If you have questions, click the "Ask for Help button".
+
+
