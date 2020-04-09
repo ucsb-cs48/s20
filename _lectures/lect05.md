@@ -57,8 +57,26 @@ Learning the self-discipline of driving features from user needs, in *this* cour
 
 # Minimum Viable Product
 
-A case study.
+* A case study: putting a card game online.
+* The card game: <https://dl.acm.org/doi/10.1145/3328778.3366989>
 
+  
+> Colleen M. Lewis and Phillip Conrad. 2020. Teaching Practices Game: Interactive Resources for Training Teaching Assistants. In Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE ’20). Association for Computing Machinery, New York, NY, USA, 1110–1111. DOI:https://doi.org/10.1145/3328778.3366989
+
+
+Game Rules for each round:
+
+1. One person (the *Leader* for this round) draws a card and reads the bold text at the top.
+2. The *Leader* then asks the group: What would you do in that situation? <br>
+   Each member of the group answers the question or passes
+3. After hearing all answers (or 3 minutes), the *Leader* reads the sample answer from the card aloud and picks their favorite answer (the *Winner* for this round). The *Winner* keeps the card to tally who won the most times.
+4. The leader rotates clockwise.
+
+At the end of the game, the overall *Winner* is the one with the most cards.
+
+Some sample cards:
+
+![card01]({{'card01.png' | relative_url }})
 
 
 # Breakout work today
