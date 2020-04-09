@@ -157,20 +157,25 @@ Colleen to Phill:
 
 Phill back to Colleen
 
-> That's perfect, because it illustrates the point that the MVP doesn't always involve code 
-> 
+> That's perfect, because it illustrates the point that the MVP doesn't always involve code!
 
-> I heard the founder of one of the food delivery services (GrubHub, Doordash, not sure which one) describe their mvp one time.
->
-> Their mvp was a static html page with a list of about five restaurants, each one a link to a scanned pdf of the menu, and a phone number to call.   
-> 
-> That was it.
-> 
-> From that mvp they learned SO MUCH that told them what to build, and what NOT to build, both from a technology standpoint, and a business standpoint.
-> 
-> If I can find the source, I'll link to it. 
+My email to Colleen went on to note [this story from the founders of Doordash](https://www.productdone.com/doordash-concierge-mvp/) about how their initial  MVP was nothing more than a static html page with a list of a few restaurants, each with a link to a scanned pdf of the menu, and a phone number to call.   
 
-# Final Roadmap
+From that, you iterate, and only write the code you really need.
+
+The article mentions the idea of a [Concierge MVP](https://www.shortform.com/blog/concierge-mvp/) which is an important idea in an approach known as "Lean Business" (which is a "cousin" of the Agile methodology).   
+
+# "Concierge MVP"
+
+A "Concierge MVP" is a product that:
+* you can get set up quickly
+* *involves human intervention* in steps that might later be partially or fully automated
+* has, as its main purpose: market validation and information gathering
+* is not intended as a long-term strategy (and is likely not viable or sustainable long-term)
+
+It's the *human intervention* that defines a "Concierge MVP".
+
+# Final Roadmap for the TA Training Card Game:
 
 Note that you might never build the later iterations; you only keep developing as long as the extra features really, really add value.
 
