@@ -1,14 +1,10 @@
-# w20
+# s20
 
-https://ucsb-cs48.github.io/w20/
+https://ucsb-cs48.github.io/s20/
 
-Jekyll based website for UCSB CS48, Winter 2020
+Jekyll based website for UCSB CS48, Spring 2020
 
-Website: <https://ucsb-cs48.github.io/w20/>
-
-This version is intended to replace <https://ucsb-cs48-w20.github.io>.
-
-It uses the new Jekyll theme approach to make these sites easier to maintain.
+Website: <https://ucsb-cs48.github.io/s20/>
 
 The theme currently being used can be find in the jekyll-theme value
 in `_config.yml`
