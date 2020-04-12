@@ -8,6 +8,7 @@ ready: false
 slack_url: https://ucsb-cs48-s20.slack.com
 ---
 
-This page describes detailed steps for completing [lab00]({{'/lab/lab00' | relative_url }}) using Next.js.
+This page describes detailed steps for completing lab00 using Spring Boot.
 
-Please complete the steps on the [lab00]({{'/lab/lab00' | relative_url }}) page first.
+Please complete Steps 1-5 on the [lab00]({{'/lab/lab00' | relative_url }}) page first.
+
