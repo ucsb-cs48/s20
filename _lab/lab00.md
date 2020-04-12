@@ -120,7 +120,7 @@ You are ready now to switch to the file that contains the specific instrucitons 
 
 # Next Steps
 
-* For the remainder of the lab, there are two different versions of the instructions, depending on the technology stack chosen.
+For the remainder of the lab, there are two different versions of the instructions, depending on the technology stack chosen.
 
 | Stack | Detailed Instructions | Deployment Platform | 
 |-------|-----------------------|---------------------|
