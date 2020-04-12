@@ -48,7 +48,27 @@ git push origin master
 
 At this point, you should be able to visit the github organization (<https://github.com/{{page.github_org}}>) and see your repo listed as one of the private repos to which you have access (you won't see it unless you are logged in to your github account.)    You should also see that it has all of the files from the starter repo.
 
-# Step 8: Configuration of OAuth
+
+# Step 8: See example of completed app
+
+The example app here shows what the app looks like when it is fully deployed on the web.
+
+* <https://cs48-btk5h-demo-nextjs-app.now.sh/>
+
+Try logging into this app with any Google account you have (e.g. your UCSB Email Account).
+
+You should be able to login, logout, and show a picture of a random dog.
+
+* Note that the menu item "Random Dog With Auth" appears only when you are logged in.
+* If you log out and try to access the same URL to which that menu item takes you, i.e. <https://cs48-btk5h-demo-nextjs-app.now.sh/woof-private>, the app will force you back to the login screen before it allows you to see the random dog.
+
+Once you've complete the steps in this lab, you should be able to:
+* Run this app locally
+* Deploy this app to the web at the address <https://cs48-cgaucho-lab00.now.sh> (where `cgaucho` is replaced with your githubid).
+
+Now that we know what we are trying to accomplish, let's proceed.
+
+# Step 9: Configuration of OAuth
 
 The example repo uses Google OAuth for logins/logouts.  Before we can run the application, we need to do some configuration.
 
