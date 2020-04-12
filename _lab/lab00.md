@@ -126,5 +126,6 @@ You are ready now to switch to the file that contains the specific instrucitons 
 |-------|-----------------------|---------------------|
 | Spring Boot (Java) | [lab00_sb]({{'/lab/lab00_sb' | relative_url }}) | Heroku |
 | next.js (JavaScript) | [lab00_nj]({{'/lab/lab00_nj' | relative_url }}) | now.sh |
+{:.table .table-sm .table-striped .table-bordered}
 
 
