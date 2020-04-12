@@ -32,11 +32,11 @@ The repo should be:
 * private
 * initially empty (no README, no .gitignore, no LICENSE)
 
+The reason we are creating an empty repo is that we'll be pulling in starter code from another repo in a later step.
+
 Here is what that should look like: 
 
-![creating cgaucho_lab00 under ucsb-cs48-s20](create_lab_repo.png) 
-
-The reason we are creating an empty repo is that we'll be pulling in starter code from another repo in a later step.
+![creating cgaucho_lab00 under ucsb-cs48-s20](create_lab_repo_40pct.png) 
 
 
 # Next Steps
