@@ -68,9 +68,31 @@ Once you've complete the steps in this lab, you should be able to:
 
 Now that we know what we are trying to accomplish, let's proceed.
 
-# Step 9: Configuration of OAuth
+
+# Step 9: Install node
+
+If you are working on CSIL, you may skip this step, because as of this writing (April 12, 2020), a sufficient version of node is installed on CSIL:
+
+```
+[pconrad@csil-05 ~]$ node --version
+v10.16.3
+[pconrad@csil-05 ~]$ 
+```
+
+You may also skip this step if, when you type the command `node --version` on your local system. you see a version that is `10.*` or higher.
+
+Otherwise, follow the instructions here for installing node:
+
+* <>
+
+
+
+# Step 10: Configuration of OAuth
 
 The example repo uses Google OAuth for logins/logouts.  Before we can run the application, we need to do some configuration.
 
+The instructions for doing this configuration are in the README.md file of the starter repo, which you can read either:
+* online here: <https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md>
+* in the `README.md` of your local copy of the repo 
 
 
