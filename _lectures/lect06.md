@@ -68,3 +68,17 @@ If there are two or three different features, that can be in iteration 2, for ex
 That requires you to think about feature that can be implemented in parallel, without getting into each other's way.
 
 If you've already divided your stories into iterations, think about whether those iterations have enough parallelism. If not, think about whether you can refactor your iterations (splitting, combining, adding new features) so that there is some degree of parallelism.
+
+
+# When there's 10 minutes left
+
+* Finish up the thing you are discussing 
+* Reflect on the most valuable outcome of today's meeting
+  - the thing the team learned
+  - the insight you came to about your product, or about the process
+* Decide who from your team will report back
+* Put the name of that person in the Slack channel for your discussion section, along with your team name.
+
+# When there's five minutes left, I'll invite you all back
+
+And ask you report on what you learned.
