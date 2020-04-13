@@ -1,10 +1,9 @@
 ---
-desc: "Monday Section: "
+desc: "Monday Section: Acceptance Criteria for MVP, additional iterations"
 lecture_date: 2020-04-13
 num: lect06
-ready: false
+ready: true
 ---
-
 
 # Homework
 
