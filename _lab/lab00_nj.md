@@ -94,7 +94,26 @@ When you have finished with those instructions, you should be able to do each of
 * type `npx --version` and get a version number (as opposed to `command not found`)
 
 
-# Step 10: Configuration of OAuth
+# Step 10: Type `npm install`
+
+As explained in the [README.md for the starter code](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md):
+
+> The first time you clone this repo, as well as any time you pull/switch branches, you should update the project's 
+> dependencies by running `npm install`
+
+So, first make sure that you have done a `cd` into your `githubid_lab00` repo, and then type:
+
+```
+npm install
+```
+
+You should see a lot of output, and with luck no error messages.
+* Special note for MacOS users: if you see `gyp: No Xcode or CLT version detected!` and other errors about `gyp`, then 
+  check the page <https://ucsb-cs48.github.io/jstopics/node_macos/> for instructions on fixing this.  The short version
+  is that you may need to reinstall the XCode command line tools.
+`
+
+# Step 11: Configuration of OAuth
 
 The example repo uses Google OAuth for logins/logouts.  Before we can run the application, we need to do some configuration.
 
