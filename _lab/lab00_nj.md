@@ -83,8 +83,15 @@ You may also skip this step if, when you type the command `node --version` on yo
 
 Otherwise, follow the instructions here for installing node:
 
-* <>
+Additional installation advice for specific platforms can be found here:
+* MacOS: <https://ucsb-cs48.github.io/jstopics/node_macos/>
+* Windows: <https://ucsb-cs48.github.io/jstopics/node_windows/>
+* Linux: <https://ucsb-cs48.github.io/jstopics/node_linux/>
 
+When you have finished with those instructions, you should be able to do each of these at the terminal prompt:
+* type `node --version` and get a number that is `10.*` or higher (e.g. `v10.16.3`)
+* type `npm --version` and get a version number (as opposed to `command not found`)
+* type `npx --version` and get a version number (as opposed to `command not found`)
 
 
 # Step 10: Configuration of OAuth
