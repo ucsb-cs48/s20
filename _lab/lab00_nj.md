@@ -153,14 +153,36 @@ If it works, proceed to the next step.
 
 # Step 14: Configure secrets for GitHub Actions
 
+At this point, if you look at your GitHub repo, you'll probably see that there
+is an red X next to the commit hash on the main page, as shown in the
+image below.
+
+![red x full context](red_x_full_context.png)
+
+The red x signifies that GitHub Action is trying to run test cases
+for this repo, but the test cases are failing.  This is likely because
+the secrets necessary for GitHub Actions to succeed have not
+yet been configured.
+
 The next step in the README.md describes how to configure secrets for GitHub actions.   Follow these steps.
 
 Then make a commit to the README.md of your own repo, in which you add your name, github id, and team to the top of the 
-README.   You can do this directly in the GitHub web interface.
+README.   You can do this directly in the GitHub web interface.  Here's what
+that would look like:
+
+![add name to README](add-name-to-README.png)
+
 
 That commit should trigger GitHub actions to run, which should result in first a yellow circle, then a green check next to your commit hash.
 
-TODO: Put in pictures of what this looks like.
+Yellow dot (signfying tests are still running):
+
+![yellow dot](yellow-dot.png)
+
+Green check signfifying tests are passing:
+
+![green check](green-check-full-context.png)
+
 
 After doing this commit, if you get the green check, do this to pull these change to the README.md into your local repo:
 
