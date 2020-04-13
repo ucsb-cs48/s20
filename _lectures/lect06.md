@@ -15,7 +15,7 @@ ready: true
 
 lab00 will be assigned tomorrow.    It is to get you oriented to deploying with your tech stack
 
-* https://ucsb-cs48.github.io/s20/lab/lab00/
+* <https://ucsb-cs48.github.io/s20/lab/lab00/>
 
 * The instructions are not 100% ready yet, but if you are doing the next.js version, they 95% ready, so you can get started
   if you want.
