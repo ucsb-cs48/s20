@@ -157,7 +157,7 @@ At this point, if you look at your GitHub repo, you'll probably see that there
 is an red X next to the commit hash on the main page, as shown in the
 image below.
 
-![red x full context](red_x_full_context.png)
+![red x full context](red-x-full-context_50pct.png)
 
 The red x signifies that GitHub Action is trying to run test cases
 for this repo, but the test cases are failing.  This is likely because
@@ -170,18 +170,18 @@ Then make a commit to the README.md of your own repo, in which you add your name
 README.   You can do this directly in the GitHub web interface.  Here's what
 that would look like:
 
-![add name to README](add-name-to-README.png)
+![add name to README](add-name-to-README_50pct.png)
 
 
 That commit should trigger GitHub actions to run, which should result in first a yellow circle, then a green check next to your commit hash.
 
 Yellow dot (signfying tests are still running):
 
-![yellow dot](yellow-dot.png)
+![yellow dot](yellow-dot_50pct.png)
 
 Green check signfifying tests are passing:
 
-![green check](green-check-full-context.png)
+![green check](green-check-full-context_50pct.png)
 
 
 After doing this commit, if you get the green check, do this to pull these change to the README.md into your local repo:
