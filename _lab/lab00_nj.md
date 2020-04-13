@@ -109,8 +109,12 @@ npm install
 
 You should see a lot of output, and with luck no error messages.
 * Special note for MacOS users: if you see `gyp: No Xcode or CLT version detected!` and other errors about `gyp`, then 
-  check the page <https://ucsb-cs48.github.io/jstopics/node_macos/> for instructions on fixing this.  The short version
-  is that you may need to reinstall the XCode command line tools.
+  check the page <https://ucsb-cs48.github.io/jstopics/node_macos/> for instructions on fixing this.  
+  * The short version is that you may need to reinstall the XCode command line tools.  This takes 3-5 minutes on a decent home internet connection.
+  * After reinstalling the XCode Command Line tools, repeat the `npm install` command and the errors related to `gyp` should go away.
+  
+  
+  
 `
 
 # Step 11: Configuration of OAuth
