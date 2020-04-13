@@ -7,6 +7,7 @@ num: lab00_nj
 ready: false
 github_org: ucsb-cs48-s20
 slack_url: https://ucsb-cs48-s20.slack.com
+README_link: "[README.md](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md)"
 ---
 
 This page describes detailed steps for completing lab00 using Next.js.
@@ -113,16 +114,72 @@ You should see a lot of output, and with luck no error messages.
   * The short version is that you may need to reinstall the XCode command line tools.  This takes 3-5 minutes on a decent home internet connection.
   * After reinstalling the XCode Command Line tools, repeat the `npm install` command and the errors related to `gyp` should go away.
   
-  
-  
-`
+ 
+# Step 11: Explanation of "running on `localhost`"
 
-# Step 11: Configuration of OAuth
+Running on `localhost` is also known as *development mode*
 
-The example repo uses Google OAuth for logins/logouts.  Before we can run the application, we need to do some configuration.
+If you know what is meant by "running on `localhost'" you can skip the following explanation, and go straight to the next step.
 
-The instructions for doing this configuration are in the README.md file of the starter repo, which you can read either:
-* online here: <https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md>
-* in the `README.md` of your local copy of the repo 
+Running on `localhost` means that 
+* we are running the server on our local machine
+* it can *only* be accessed from web browsers running on that local machine
+
+Running on localhost is convenient for testing code as we develop; it is not the way we make the web app available to real users.
+
+For next.js apps, running on localhost typically means we interact with the running web app by pointing our browser to <http://localhost:3000>, however:
+* The *local machine* in this case might be our own laptop or desktop machine, or it might be CSIL.  
+* If it's your laptop or desktop, It depends on where you are working.  If the *local machine* is CSIL, you'll need to use SSH forwarding to be able to see your running app.  Consult <https://ucsb-cs48.github.io/topics/csil_ssh_port_forwarding/> for details.
+
+# Step 12: Configuration of OAuth for Localhost
+
+The example repo uses Google OAuth for logins/logouts.  Before we can run the application on localhost, we need to do some configuration.
+
+The instructions for doing this configuration are linked to in the README.md file of the starter repo, which you can read here: <https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md>
+
+When you have followed these steps and put the correct values into your .env file, you can proceed to the step where you 
+run the application.
+
+# Step 13: Test application on localhost
+
+
+The instructions for running are in the README.md file of the starter repo, which you can read here: <https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md>
+
+The basic command is `npm run dev`
+
+Start up your server and verify that you can interact with it on `localhost:3000` in the same ways you interacted with the sample implementation at <https://cs48-btk5h-demo-nextjs-app.now.sh/>
+
+If it works, proceed to the next step.
+
+# Step 14: Configure secrets for GitHub Actions
+
+The next step in the README.md describes how to configure secrets for GitHub actions.   Follow these steps.
+
+Then make a commit to the README.md of your own repo, in which you add your name, github id, and team to the top of the 
+README.   You can do this directly in the GitHub web interface.
+
+That commit should trigger GitHub actions to run, which should result in first a yellow circle, then a green check next to your commit hash.
+
+TODO: Put in pictures of what this looks like.
+
+After doing this commit, if you get the green check, do this to pull these change to the README.md into your local repo:
+
+```
+git pull origin master
+```
+
+# Step 15: Configure application to run on now.sh
+
+In this step, we put the application online on the public web, using a service known as now.sh.
+
+We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.
+
+The instructions for doing this are in the {{page.README_link}} for the starter code.  Follow those instructions, including
+the adjustments needed to the Auth0 configuration for production.
+
+# Step 16: Submit on Gauchospace
+
+TODO: Put instructions for submitting on Gauchospace here.
+
 
 
