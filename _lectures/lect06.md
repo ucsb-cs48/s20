@@ -49,8 +49,23 @@ Later, we'll *also* discuss how to write automated tests for each acceptance cri
 
 For now, though, just focus on what the acceptance criteria for each story should be.
 
+
 # If you are done
 
 Go ahead and create additional columns for additional "iterations" beyond the MVP, i.e. a second iteration, third iteration, etc.  
 
 Put stories into those, and "groom them", i.e. add acceptance criteria.
+
+# Some notes on iterations and parallelism
+
+It may be the case that your MVP has user stories that are "linear", i.e. where there is a series of stories that have to be completed in a definite order.    
+
+That's an ok way to get started.  But it means that your team can only be implementing one feature at a time.
+
+As your team gets more experience, and as you get into later iterations (your 2nd, 3rd, etc.) try to find ways that your team can work in parallel.
+
+If there are two or three different features, that can be in iteration 2, for example, so that a team of 4 can be in two pairs, or a team of 6 can work in three pairs, your team will have more productivity.
+
+That requires you to think about feature that can be implemented in parallel, without getting into each other's way.
+
+If you've already divided your stories into iterations, think about whether those iterations have enough parallelism. If not, think about whether you can refactor your iterations (splitting, combining, adding new features) so that there is some degree of parallelism.
