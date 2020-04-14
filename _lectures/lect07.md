@@ -80,6 +80,10 @@ The plan could include things like:
 * Alice and Bob will pair together during the MVP iteration, since Alice has more experience with the tech stack.  Alice and
   Bob will use strong-style pairing with Bob at the keyboard as much as possible, until Bob feels confident. 
   
+An ideal plan will incorporate both breadth and depth:
+* breadth involves baseline skills: everyone on the team should at least have certain baseline skills in the tech stack
+* for depth, use divide-and-conquer: not everyone on the team needs to be a deep expert in everything
+
 # A *Partial* List of important technologies, by Stack
 
 You might use this list to come up with ideas for your `/team/LEARNING.md` file.
@@ -114,6 +118,18 @@ Note that:
 * Spring Boot <https://ucsb-cs48.github.io/javatopics/spring_boot/>
   * And list of Spring Boot topics here: <https://ucsb-cs48.github.io/javatopics/>
 * Thymeleaf <https://ucsb-cs48.github.io/javatopics/thymeleaf/>
+
+
+## Project Specific APIs, data sources, etc.
+
+Your project may have specific APIs, data sources, specialized skills etc. that you may need to work with.  
+
+It may helpful to identify the ones needed for your project, and be sure that at least one team member is looking into each of those.
+
+Examples:
+* Spotify API <https://developer.spotify.com/documentation/web-api/>
+* Low level `<canvas>` element access for game element graphics, or frameworks that allow it
+* Websockets (for publishing events from the server to the client, e.g. for real-time chat, games, etc.) <https://www.html5rocks.com/en/tutorials/websockets/basics/>
 
 
 # If you have extra time
