@@ -164,7 +164,7 @@ for this repo, but the test cases are failing.  This is likely because
 the secrets necessary for GitHub Actions to succeed have not
 yet been configured.
 
-The next step in the README.md describes how to configure secrets for GitHub actions.   Follow these steps.
+The next step in the README.md describes how to configure secrets for GitHub actions, and links to <https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/docs/auth0-github-actions.md> where this is decribed.  Please follow these instructions.
 
 Then make a commit to the README.md of your own repo, in which you add your name, github id, and team to the top of the 
 README.   You can do this directly in the GitHub web interface.  Here's what
