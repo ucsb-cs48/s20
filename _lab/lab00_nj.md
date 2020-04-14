@@ -9,7 +9,7 @@ github_org: ucsb-cs48-s20
 slack_url: https://ucsb-cs48-s20.slack.com
 README_link: "[README.md](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md)"
 new: "<span class='badge badge-pill badge-primary'>New!</span>"
-gauchospace_url: TBD
+gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=3766298&forceview=1
 ---
 
 This page describes detailed steps for completing lab00 using Next.js.
