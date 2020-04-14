@@ -190,6 +190,15 @@ After doing this commit, if you get the green check, do this to pull these chang
 git pull origin master
 ```
 
+# NOTE: HOLD HERE FOR NOW 
+
+Please hold short of proceeding to step 15; `now.sh` just released a change to their platform
+that will allow us to greatly simplify the process.  This was literally released in the last 24 hours, just as we were assigning this lab.
+
+We'll extend the due date.  Thank you for your patience.
+
+If you already did Step 15, we may ask you to do it again; not because we are being annoying, but because we want everyone to understand the new process.  Again, thanks for your patience.
+
 # Step 15: Configure application to run on now.sh
 
 In this step, we put the application online on the public web, using a service known as now.sh.
