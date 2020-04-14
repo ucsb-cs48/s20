@@ -135,6 +135,16 @@ Examples:
   - Hard coded data objects for very small tables
   - Databases (SQL or MongoDB) for larger tables
 
+## Spikes, Skunk-works, Proofs of Concepts
+
+You are not only permitted, but *strongly encouraged* even, to make *additional repos* in addition to your main project
+repo that contains extra "proof of concept", and "practice code" for your project.
+
+These are someetimes called *spikes*.
+
+You can name these with private or public repos in the `ucsb-cs48-s20` github org names such as `spike-s1-t2-try-spotify-api` and then give your team access to them.
+
+You may want to make such repos part of your learning plan.
 
 # If you have extra time
 
