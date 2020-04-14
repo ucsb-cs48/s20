@@ -104,7 +104,7 @@ Note that:
 ## Next.js
 
 * npm <https://docs.npmjs.com/about-npm/>, <https://dzone.com/articles/a-beginners-guide-to-npm-the-node-package-manager>
-* React / JSX  https://reactjs.org/docs/getting-started.html#learn-react>, <https://www.w3schools.com/react/default.asp>
+* React / JSX  <https://reactjs.org/docs/getting-started.html#learn-react>, <https://www.w3schools.com/react/default.asp>
 * react-bootstrap <https://react-bootstrap.github.io/>
 * next.js in general <https://nextjs.org/learn/basics/getting-started>
 * Zeit now.sh <https://zeit.co/docs>
@@ -129,7 +129,7 @@ It may helpful to identify the ones needed for your project, and be sure that at
 Examples:
 * Spotify API <https://developer.spotify.com/documentation/web-api/>
 * Low level `<canvas>` element access for game element graphics, or frameworks that allow it
-* Websockets (for publishing events from the server to the client, e.g. for real-time chat, games, etc.) <https://www.html5rocks.com/en/tutorials/websockets/basics/>
+* Pusher (for real-time communication between the server and the client, e.g. for real-time chat, games, etc.) <https://pusher.com/>
 * Mapping/Routing services such as <https://openrouteservice.org/services/> and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Frameworks#Displaying_interactive_maps) (Note that Google Maps is awesome, but it may be tough to get free access.)
 * Reading data files into usable application data
   - Hard coded data objects for very small tables
