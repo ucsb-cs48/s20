@@ -84,6 +84,12 @@ The plan could include things like:
 
 You might use this list to come up with ideas for your `/team/LEARNING.md` file.
 
+Note that:
+* This list is not necessarily complete. It's just a "good start".
+* The tutorials linked to are just a starting point.   They aren't the only, or necessarily even the "best" tutorials---just the first ones that seemed reasonable to link to.
+* As you find better resources, you are *strongly encouraged* to share those on the `_articles` channels on the Slack.
+
+
 ## General Web Dev Skills
 
 * HTML <https://www.w3schools.com/html>
