@@ -100,7 +100,7 @@ Note that:
 ## Next.js
 
 * npm <https://docs.npmjs.com/about-npm/>, <https://dzone.com/articles/a-beginners-guide-to-npm-the-node-package-manager>
-* React / JSX  <https://www.w3schools.com/react/default.asp>
+* React / JSX  https://reactjs.org/docs/getting-started.html#learn-react>, <https://www.w3schools.com/react/default.asp>
 * react-bootstrap <https://react-bootstrap.github.io/>
 * next.js in general <https://nextjs.org/learn/basics/getting-started>
 * Zeit now.sh <https://zeit.co/docs>
