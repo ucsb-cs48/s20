@@ -130,6 +130,10 @@ Examples:
 * Spotify API <https://developer.spotify.com/documentation/web-api/>
 * Low level `<canvas>` element access for game element graphics, or frameworks that allow it
 * Websockets (for publishing events from the server to the client, e.g. for real-time chat, games, etc.) <https://www.html5rocks.com/en/tutorials/websockets/basics/>
+* Mapping/Routing services such as <https://openrouteservice.org/services/> and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Frameworks#Displaying_interactive_maps) (Note that Google Maps is awesome, but it may be tough to get free access.)
+* Reading data files into usable application data
+  - Hard coded data objects for very small tables
+  - Databases (SQL or MongoDB) for larger tables
 
 
 # If you have extra time
