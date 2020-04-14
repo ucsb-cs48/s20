@@ -1,5 +1,5 @@
 ---
-desc: "Tuesday Lecture: Intro to Retros"
+desc: "Tuesday Lecture: Leadership, Retros, Learning plan"
 lecture_date: 2020-04-14
 num: lect07
 ready: false
