@@ -51,6 +51,7 @@ Here are some of the pros and cons:
 |----------|------|------|
 | Your own machine | Less likely to run out of disk space | Must install software |
 | CSIL | No need to install software | May run out of disk space, especially for Next.js | 
+{:.table .table-sm .table-striped .table-bordered}
 
 Notes for running locally
 * Installing software on your own machine is typically straightforward.  We can try to assist during course staff office hours.   Please know. however, that we cannot necessarily provide detailed tech support for every possible operating system version.   You will ultimately be resposible for dealing with any OS specific issues.
