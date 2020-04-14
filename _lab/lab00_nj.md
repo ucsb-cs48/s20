@@ -199,16 +199,16 @@ We'll extend the due date.  Thank you for your patience.
 
 If you already did Step 15, we may ask you to do it again; not because we are being annoying, but because we want everyone to understand the new process.  Again, thanks for your patience.
 
-# Step 15: Configure application to run on now.sh
+# ~~Step 15: Configure application to run on now.sh~~
 
-In this step, we put the application online on the public web, using a service known as now.sh.
+~~In this step, we put the application online on the public web, using a service known as now.sh.~~
 
-We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.
+~~We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.~~
 
-The instructions for doing this are in the {{page.README_link}} for the starter code.  Follow those instructions, including
-the adjustments needed to the Auth0 configuration for production.
+~~The instructions for doing this are in the {{page.README_link}} for the starter code.  Follow those instructions, including
+the adjustments needed to the Auth0 configuration for production.~~
 
-# Step 16: Submit on Gauchospace
+# ~~Step 16: Submit on Gauchospace~~
 
 TODO: Put instructions for submitting on Gauchospace here.
 
