@@ -220,7 +220,11 @@ In this step, we put the application online on the public web, using a service k
 
 We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.
 
-The instructions for doing this are in the {{page.README_link}} for the starter code.  Follow those instructions, including
+The instructions for doing this are in the {{page.README_link}} for the starter code under the heading:
+
+> Deploying to now.sh for the first time
+
+Follow those instructions, including
 the adjustments needed to the Auth0 configuration for production.
 
 # Step 17: Submit on Gauchospace
