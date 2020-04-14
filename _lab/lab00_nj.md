@@ -9,6 +9,7 @@ github_org: ucsb-cs48-s20
 slack_url: https://ucsb-cs48-s20.slack.com
 README_link: "[README.md](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md)"
 new: "<span class='badge badge-pill badge-primary'>New!</span>"
+gauchospace_url: TBD
 ---
 
 This page describes detailed steps for completing lab00 using Next.js.
@@ -192,16 +193,6 @@ git pull origin master
 ```
 
 
-
-# NOTE: HOLD HERE FOR NOW 
-
-Please hold short of proceeding to step 15; `now.sh` just released a change to their platform
-that will allow us to greatly simplify the process.  This was literally released in the last 24 hours, just as we were assigning this lab.
-
-We'll extend the due date.  Thank you for your patience.
-
-If you already did Step 15, we may ask you to do it again; not because we are being annoying, but because we want everyone to understand the new process.  Again, thanks for your patience.
-
 # Step 15: Pull updates from starter code {{page.new}}
 
 Just as we were releasing lab00, now.sh released:
@@ -235,5 +226,21 @@ the adjustments needed to the Auth0 configuration for production.
 # Step 17: Submit on Gauchospace
 
 
+When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
+
+In the text area, enter something like this, substituting your repo name and your Heroku app name:
+
+<div style="font-family:monospace;">
+repo name: https://github.com/ucsb-cs48-s20/cgaucho_lab00<br>
+on now.sh: https://cs48-cgaucho0-lab00.now.sh<br>
+</div>
+
+Then, **and this is super important**, please make both of those URLs **clickable urls**.
+
+The instructions for doing so are here: <https://ucsb-cs48.github.io/topics/gauchospace_clickable_urls/>
+
+# Grading Rubric:
+
+TBA.  It will be 100 points divided across the  steps in the lab.
 
 
