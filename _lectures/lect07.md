@@ -9,7 +9,7 @@ ready: false
 Homework 
 * Reminder about H02 (due tomorrow) 
 * H03 assigned (subject retros), due Friday 11:59pm
-
+* lab00 is officially assigned (for next.js folks), due Friday
 
 # Today
 
