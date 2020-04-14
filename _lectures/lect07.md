@@ -21,7 +21,7 @@ Brief discussion of team leadership roles
 
 Brief discussion of retros
 - Choose *today* who will lead your first retro
-- So, let's discsus just enough so that you know what you are committing to
+- So, let's discuss just enough so that you know what you are committing to
 - <https://ucsb-cs48.github.io/topics/retros/>
 
 # Team Activity #1 in `team/LEADERSHIP.md`
