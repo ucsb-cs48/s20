@@ -8,6 +8,7 @@ ready: false
 github_org: ucsb-cs48-s20
 slack_url: https://ucsb-cs48-s20.slack.com
 README_link: "[README.md](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md)"
+new: "<span class='badge badge-pill badge-primary'>New!</span>"
 ---
 
 This page describes detailed steps for completing lab00 using Next.js.
@@ -190,6 +191,8 @@ After doing this commit, if you get the green check, do this to pull these chang
 git pull origin master
 ```
 
+
+
 # NOTE: HOLD HERE FOR NOW 
 
 Please hold short of proceeding to step 15; `now.sh` just released a change to their platform
@@ -199,18 +202,38 @@ We'll extend the due date.  Thank you for your patience.
 
 If you already did Step 15, we may ask you to do it again; not because we are being annoying, but because we want everyone to understand the new process.  Again, thanks for your patience.
 
-# ~~Step 15: Configure application to run on now.sh~~
+# Step 15: Pull updates from starter code {{page.new}}
 
-~~In this step, we put the application online on the public web, using a service known as now.sh.~~
+Just as we were releasing lab00, now.sh released:
+* some new features to allow per-project secrets
+* new versions of some of the dependencies
 
-~~We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.~~
+This allowed the course staff to greatly simplify the deploy process.
 
-~~The instructions for doing this are in the {{page.README_link}} for the starter code.  Follow those instructions, including
-the adjustments needed to the Auth0 configuration for production.~~
+But it does mean that we need you to update your repo from the starter code.
 
-# ~~Step 16: Submit on Gauchospace~~
+Assuming you still have the starter defined as a remote, just do:
 
-TODO: Put instructions for submitting on Gauchospace here.
+```
+git pull starter master
+```
+
+If you are working in a different clone from the one where you defined the `starter` remote, just define it again the same
+way as you did before, prior to running this command.
+
+After doing this, repeat the `npm install` command to update the dependencies before proceeding.
+
+# Step 16: Configure application to run on now.sh
+
+In this step, we put the application online on the public web, using a service known as now.sh.
+
+We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.
+
+The instructions for doing this are in the {{page.README_link}} for the starter code.  Follow those instructions, including
+the adjustments needed to the Auth0 configuration for production.
+
+# Step 17: Submit on Gauchospace
+
 
 
 
