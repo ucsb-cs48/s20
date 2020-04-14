@@ -6,6 +6,7 @@ layout: lab
 num: lab00_sb
 ready: false
 slack_url: https://ucsb-cs48-s20.slack.com
+gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=3766298&forceview=1
 ---
 
 This page describes detailed steps for completing lab00 using Spring Boot.
