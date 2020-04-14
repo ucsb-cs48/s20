@@ -26,16 +26,18 @@ Brief discussion of retros
 
 # Team Activity #1 in `team/LEADERSHIP.md`
 
-Your project repo will turn up if you are logged into GitHub, and use this search:
+Your project repo has a name of the form `project-s0-t1-name`.
 
-* <>
+It will show up if you are logged into GitHub, and use this search:
+
+* <https://github.com/ucsb-cs48-s20?q=project->
 
 In your project repo, in file `team/LEADERSHIP.md`
 - record who led the team discussion for Monday 04/13 (yesterday)
 - record who will lead today's team discussion
 - record who will lead the full first team retro (Monday)
 
-You can use a Markdown table to make this easy to read
+You can use a Markdown table to make this easy to read.  It's fine to just record this directly on the `master` branch, editing directly in the GitHub web interface.
 
 Example:
 
