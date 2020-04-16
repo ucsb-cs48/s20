@@ -116,6 +116,16 @@ You should see a lot of output, and with luck no error messages.
   * The short version is that you may need to reinstall the XCode command line tools.  This takes 3-5 minutes on a decent home internet connection.
   * After reinstalling the XCode Command Line tools, repeat the `npm install` command and the errors related to `gyp` should go away.
   
+You may ignore these warnings that appear when you do npm install:
+```
+npm WARN bootstrap@4.4.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.4.1 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+```
+
+Despite the note that `you must install` these peer dependencies, in fact, you do not need to install `jquery` and `popper`. The reason is that we're installing bootstrap is only for its stylesheets, not for the javascript-based component implementations that it has. We already have `react-bootstrap` as a dependency, which reimplements those javascript-based components in react, completely removing the need for the bootstrap implementations.
+
+There's some discussion about marking those dependencies optional on the github page, but it's on hold until the next major release of bootstrap <https://github.com/twbs/bootstrap/pull/30328>  
+  
  
 # Step 11: Explanation of "running on `localhost`"
 
