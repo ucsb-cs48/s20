@@ -26,4 +26,9 @@ Look, don't sweat the deadline.  Just make sure that you get started asap.
 
 * <https://ucsb-cs48.github.io/s20/hwk/>
 
+# Update each other on progress on your learning plan
+
+* What have you done since Tuesday?
+* What are you working on now?
+* What will you have done by Monday's discussion section?
 
