@@ -18,7 +18,7 @@ Please complete Steps 1-5 on the [lab00]({{'/lab/lab00' | relative_url }}) page 
 
 ### What are we trying to accomplish again in this lab?
 
--   In this lab, we will <em>set up a basic web app in Java</em>
+-   In this lab, we will <em>set up a basic web app writting in Java</em> to run on Heroku.
 -   A web app is a piece of Java code that takes HTTP request messages as input, and responds with HTTP response objects as output.
 -   Our app is written using the Spring Boot framework, a Java framework for writing web apps
 -   Heroku is a platform where we can host a Java web app.
@@ -31,8 +31,6 @@ Please complete Steps 1-5 on the [lab00]({{'/lab/lab00' | relative_url }}) page 
 -   Heroku.com offers "platform as a service" cloud computing for Java web applications.
 -   We'll use the "free plan" that they offer for folks just getting started with learning Heroku.
 -   This puts your application "on the web", for real, so that anyone in the world can access it 24/7
-
-
 
 ### Limitations of the free plan of Heroku
 
@@ -53,16 +51,6 @@ You may already have some experience with creating static web pages, and/or with
 If you are new to writing software for the web, you are <em>strongly encouaged</em> to read the background information at the "learn more" link below.
 -   [Web Pages vs. Web Apps](https://ucsb-cs56.github.io/topics/webapps_webapps_vs_websites/)
 
-### What are we trying to accomplish again in this lab?
-
-If you just did a deep dive into the article [Web Pages vs. Web Apps](https://ucsb-cs56.github.io/topics/webapps_webapps_vs_websites/) it may be helpful to again review what we are trying to accomplish in this lab:
-
--   In this lab, we will <em>create a basic "Hello, World" type web app in Java"</em>
--   To test that, we need to run that on a server somewhere.
--   Configuring a web server for Java is challenging. But, fortunately, we don't have to.
--   Heroku.com offers "platform as a service" cloud computing for Java web applications.
-    -   We'll use the "free plan" that they offer for folks just getting started with learning Heroku.
-    -   This puts your application "on the web", for real, so that anyone in the world can access it 24/7
 
 ### Disk Quota
 
@@ -81,7 +69,6 @@ Then you probably have a disk quota problem.
 
 If you do not already have a Heroku account, navigate to <https://www.heroku.com/> and click the "Sign up for Free" link.
 
-
 You'll be asked for:
 
 -   First Name
@@ -90,7 +77,6 @@ You'll be asked for:
 -   Company (you may leave this blank).
 -   Preferred Development Language: We suggest you select "Java" if you are currently enrolled in CMPSC 56
     -   (Don't worry; this doesn't prevent you from using the account with other languages later.)
-
 
 # Step 8: Add remote for starter code
 
