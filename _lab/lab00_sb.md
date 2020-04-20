@@ -149,6 +149,14 @@ Otherwise, follow the instructions here for installing Java 11 and Maven
 * Install the Heroku CLI.  Instructions are here: <https://devcenter.heroku.com/articles/heroku-cli#download-and-install>
 
 
+# Special note for Windows Subsystem for Linux (WSL)
+
+If you are using Windows Subsystem Linux (WSL), an error `The environment variable JAVA_HOME is not correctly set` may appear when you try to use Java tools. If this does occur a temporary fix is this: 
+
+* Type `export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64` 
+  - Replace `java-1.11.0-openjdk-amd64` with whatever version of Java you have installed if needed.
+
+
 # Step 12: Type `mvn compile` to try compiling the app
 
 We will use Maven (the `mvn` command) to work with Spring Boot.
@@ -314,20 +322,41 @@ In this step, we put the application online on the public web, using a service k
 
 We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.
 
+Login to <https://dashboard.heroku.com/apps> and click to create a new Heroku App.  
+
+Call it  <tt>create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt> 
+* If that name is too long or prohibited because your githubid is too long, you may abbreviate.
+
+Then go to the Deploy tab.   You should find a place where you can connect your App to Github.  
+
+Click on this, and select your repo to connect the Github Repo to Heroku.
+
+Then, click on "deploy branch".
+
+You should see a log of the deployment in the screen.  When it is finished, there will be an "Open App" button where you can open up the URL for your app.
+
+Note that while the app may come up, Google OAuth may not work immediately.  To get it to work, you may need to do some additional configuration.    That involves adding the address of your Heroku app as an additional redirect URI for your Google OAuth app.
+
+That step is explained here: <https://ucsb-cs48.github.io/topics/oauth_google_setup/>
+
+# Troubleshooting
+
+If it doesn't work, try these things before asking a mentor, TA, or instructor for help.
+
+1. Make sure you are logged into Heroku at CLI with `heroku login`.  
+2. Try running `heroku apps`, and make sure your app shows up.
+3. If it does, try `heroku logs --app appname` (substitute the name of your app where you see `appname`).  You'll see the log output of that app on Heroku.   
+   * You may find it helpful to open a second Terminal, login to CSIL and the Heroku CLI, and use `heroku logs --app appname --tail`, which keeps the log output running continously.
+   * You can also see your logs in a web browser at: <https://dashboard.heroku.com/apps/app-name/logs> (note that you need to put your `app-name` in the URL instead of `app-name`.  
+   * You can navigate to this from <https://dashboard.heroku.com/> by selecting your app, clicking on it,  selecting the `More` menu at upper right, and the selecting `Logs`.
+
 The instructions for doing this are in the {{page.README_link}} for the starter code.  Follow those instructions, including
 the adjustments needed to configure Google OAuth for production.
 
-# Step 16: Submit on Gauchospace
-
-TODO: Put instructions for submitting on Gauchospace here.
+## Explanation of localhost vs. Heroku
 
 
-
-
-
-
-
-# Step 5: Undertstanding `localhost` vs. Heroku
+If you are new to running on Heroku, you may also want to read the following explanation.  If you are familiar with Heroku, you may skip it.
 
 When running on `localhost`:
 * The web app is only runnning as long as your program is executing. 
@@ -343,66 +372,24 @@ Heroku allows us to deploy web applications in Java rather easily.
 
 *A note about security*: Let's say up front that this is a risky thing to do.   You need to be very careful about security when deploying web applications to the public internet.  Fortunately, this particular application is rather simple and low-risk.   We'll discuss web security throughout the course.
 
-# Step 6: Create a new Heroku App using the Heroku CLI
 
-In this step, we'll deploy our Spring Boot application to the public internet using Heroku.
-
-Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use this command to login to Heroku at the command line:
-
-```
-heroku login
-```
-
-**NOTES**: 
-
-* If you are ssh'ing in to CSIL, you may need to use `heroku login -i` which allows you to login without having to go to a browser.
-
-* If the `heroku login` command doesn't work, you can instead create the Heroku App at the Heroku Dashboard by
-  visiting <https://dashboard.heroku.com/apps>, clicking (at upper right):  "New&nbsp;=>&nbsp;Create New App" and
-  then creating an app with the name <tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt> as explained in 
-  the instructions below.
-
-Then, use this command to create a new web app running on heroku.  Substitute your github id in place of `githubid`.  
-Note that you should convert your githubid to all lowercase; heroku web-app names do not permit uppercase letters.
-
-<tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt>
-
-Notes:
-* A reminder that this is an individual lab, 
-  so you should complete it for yourself, i.e. there is only one github id in the name, not a pair of github ids.   
-* Please do not literally put the letters <tt><i>githubid</i></tt> 
-  in your app name; you are meant to substitute your own github id there.
+# Step 16: Submit on Gauchospace
 
 
-# Step 7: Login to the Heroku Dashboard
+When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
 
-Login to <https://dashboard.heroku.com/apps> and look for the <tt>create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt> app that you created.
+In the text area, enter something like this, substituting your repo name and your Heroku app name:
 
-You should find a place where you can connect your App to Github.  
+<div style="font-family:monospace;">
+repo name: https://github.com/ucsb-cs48-s20/cgaucho_lab00<br>
+on now.sh: https://cs48-cgaucho0-lab00.now.sh<br>
+</div>
 
-Click on this, and select your repo to connect the Github Repo to Heroku.
+Then, **and this is super important**, please make both of those URLs **clickable urls**.
 
-Then, click on "deploy branch".
+The instructions for doing so are here: <https://ucsb-cs48.github.io/topics/gauchospace_clickable_urls/>
 
+# Grading Rubric:
 
-# What if it doesn't work?
-
-If it doesn't work, try these things before asking a mentor, TA, or instructor for help.
-
-1. Make sure you are logged into Heroku at CLI with `heroku login`.  If you exited your CSIL shell (logged out) and logged back in again, you have to login to Heroku again.  Then repeat the commands.
-2. Try, try running `heroku apps`.  Make sure the `<appname>app-name-goes-here</appname>` element in the `heroku-maven-plugin` section of your `pom.xml` matches the name of your heroku app exactly.
-3. If it does, try `heroku logs --app appname` (substitute the name of your app where you see `appname`).  You'll see the log output of that app on Heroku.   
-   * You may find it helpful to open a second Terminal, login to CSIL and the Heroku CLI, and use `heroku logs --app appname --tail`, which keeps the log output running continously.
-   * You can also see your logs in a web browser at: <https://dashboard.heroku.com/apps/app-name/logs> (note that you need to put your `app-name` in the URL instead of `app-name`.  
-   * You can navigate to this from <https://dashboard.heroku.com/> by selecting your app, clicking on it,  selecting the `More` menu at upper right, and the selecting `Logs`.
-
-
-Note:
-* If you are using Windows Subsystem Linux (WSL), an error `The environment variable JAVA_HOME is not correctly set.` may appear. If this does occur a temporary fix is this: 
-`export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64` 
-replace `java-1.11.0-openjdk-amd64` with whatever version of Java you have installed if needed.
-
-
-
-
+TBA.  It will be 100 points divided across the  steps in the lab.
 
