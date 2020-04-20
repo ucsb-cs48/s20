@@ -118,20 +118,18 @@ At this point, you should be able to visit the github organization (<https://git
 
 The example app here shows what the app looks like when it is fully deployed on the web.
 
-TODO: ADD THIS
+* <https://demo-spring-google-oauth-app.herokuapp.com/>
 
 Try logging into this app with any Google account you have (e.g. your UCSB Email Account).
 
-You should be able to login, logout.
+You should be able to login, logout.   You won't be able to see the admin features, because you aren't an admin, but
+if you want to try those out, ask either the instructor or the TA to add you as an admin.
 
 Once you've complete the steps in this lab, you should be able to:
-* Run this app locally
+* Run this app locally (including making yourself an admin)
 * Deploy this app to the web at the address <https://cs48-cgaucho-lab00.herokuapp.com> (where `cgaucho` is replaced with your githubid).
 
 Now that we know what we are trying to accomplish, let's proceed.
-
-
-
 
 # Step 11: Install Java 11 and Maven on your machine
 
@@ -229,24 +227,9 @@ running on that CSIL machine.
 
 If you are ssh'ing into CSIL on your laptop (e.g. using `ssh` in a terminal session, or using an app such as `PuTTY` or `MobaXTerm` on Windows) keep in mind that if you direct your browser (running on your laptop) to `localhost:8080`, that request *never leaves your laptop*.  It looks for a web app running *on your laptop*.
 
-So, how to solve this?  There are two ways:
+# Using ssh tunnelling
 
-### (1) Use curl 
-
-This is the least satisfying way, because you won't see a proper web page.  You'll only see a dump of the HTML content of the page.  But for a simple 'Hello World' app, this works fine.
-
-
-The `curl` program is a command line web client (curl stands for "C" the "URL").  For example, this command should show you the output from the `/` route for your webapp.  Run this command at the shell prompt on the CSIL machine to which you are logged in:
-
-```
-curl http://localhost:8080
-```
-
-A better way, which allows you to see the full web page is to use SSH Tunneling, described next.
-
-### (2) Use SSH Tunneling
-
-In F19, CS56 student Darragh B offered this tip for when you are running your Spring Boot app on CSIL but your browser is on your laptop.    It involves setting up what's called an "SSH Tunnel".
+To solve this you can use *ssh tunneling*.  Here's how it works.
 
 Suppose you are running on port 8080 on host `csil-10.cs.ucsb.edu`
 
@@ -264,12 +247,11 @@ What this does is make it so that when you navigate to `http://localhost:12345` 
 Running on `localhost` is fine, but it has some limitations.  That's our next task: to understand those limitations, and why we need a cloud computing platform.
 
 
-
 # Step 12: Configuration of OAuth for Localhost
 
 The example repo uses Google OAuth for logins/logouts.  Before we can run the application on localhost, we need to do some configuration.
 
-TODO: Add explanation here
+This configuration is explained here: <https://ucsb-cs48.github.io/topics/oauth_google_setup/>
 
 # Step 13: Test application on localhost
 
@@ -279,51 +261,52 @@ The basic command is `mvn spring-boot:run`
 
 Start up your server and verify that you can interact with it on `localhost:8080` in the same ways you interacted with the sample implementation at <https://cs48-btk5h-demo-nextjs-app.now.sh/>
 
-TODO: ADD EXPLANATION OF CONFIGURING ADMINS
+At first, you won't able to access the admin functions.  We'll fix that in the next step
+
+# Step 13: Test application **as an admin** on localhost
+
+Now, let's configure yourself as an admin, and run the app again.
+
+The admins for the sample code are configured in a file called `src/main/resources/application.properties`.
+
+If you open up that file, you'll see that it contains this line:
+
+```
+app.admin.emails=phtcon@ucsb.edu,scottpchow@ucsb.edu
+```
+
+There are two ways to add yourself as an admin:
+
+1. Add your email (any Gmail account) to the end of this comma separated list.
+2. Override this property value in either your `secrets-localhost.properties` or `secrets-heroku.properties` file, or both.
+
+Essentially, any property defined in `application.properties` can be overridden for `localhost` or for `heroku` by specifying
+a new value in `secrets-localhost.properties` or `secrets-heroku.properties`
+
+* New values in `secrets-localhost.properties` take effect immediately when you restart the server with `mvn spring-boot:run`
+* New values in `secrets-heroku.properties` take effect when you:
+  - Rerun `./setHerokuEnv.sh --app appname` (where `appname` is the name of your Heroku app, e.g. `cs48-s20-cgaucho-lab00`)
+  - Redeploy the app
+
+Make this change (whichever way you prefer), and then see if you can access the admin features of the application. You should
+see a menu for Users and one for Admins.
 
 If it works, proceed to the next step.
 
 # Step 14: Understanding GitHub Actions
 
 
-TODO: REWRITE THIS TO MAKE SENSE FOR SPRING BOOT APP
-
 At this point, if you look at your GitHub repo, you'll probably see that there
-is an red X next to the commit hash on the main page, as shown in the
-image below.
+is an green check next to the commit hash on the main page.
 
-![red x full context](red-x-full-context_50pct.png)
+The green check signifies that GitHub Action is running test cases on your repo and they are passing.
 
-The red x signifies that GitHub Action is trying to run test cases
-for this repo, but the test cases are failing.  This is likely because
-the secrets necessary for GitHub Actions to succeed have not
-yet been configured.
+After each commit it pushed, this first be a yellow circle, indcating that the tests are still running.
+It should then change to a green check.
 
-The next step in the README.md describes how to configure secrets for GitHub actions.   Follow these steps.
+If, instead, you see a red X, then something is wrong with the tests.   In this case, ask for help; that shouldn't be
+happening for this simple "getting started" lab.
 
-Then make a commit to the README.md of your own repo, in which you add your name, github id, and team to the top of the 
-README.   You can do this directly in the GitHub web interface.  Here's what
-that would look like:
-
-![add name to README](add-name-to-README_50pct.png)
-
-
-That commit should trigger GitHub actions to run, which should result in first a yellow circle, then a green check next to your commit hash.
-
-Yellow dot (signfying tests are still running):
-
-![yellow dot](yellow-dot_50pct.png)
-
-Green check signfifying tests are passing:
-
-![green check](green-check-full-context_50pct.png)
-
-
-After doing this commit, if you get the green check, do this to pull these change to the README.md into your local repo:
-
-```
-git pull origin master
-```
 
 # Step 15: Configure application to run on Heroku
 
@@ -341,9 +324,6 @@ TODO: Put instructions for submitting on Gauchospace here.
 
 
 
-
-
-# Step 4: Start your webapp on `localhost`
 
 
 
