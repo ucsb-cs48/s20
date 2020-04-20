@@ -255,23 +255,23 @@ What this does is make it so that when you navigate to `http://localhost:12345` 
 Running on `localhost` is fine, but it has some limitations.  That's our next task: to understand those limitations, and why we need a cloud computing platform.
 
 
-# Step 12: Configuration of OAuth for Localhost
+# Step 14: Configuration of OAuth for Localhost
 
 The example repo uses Google OAuth for logins/logouts.  Before we can run the application on localhost, we need to do some configuration.
 
 This configuration is explained here: <https://ucsb-cs48.github.io/topics/oauth_google_setup/>
 
-# Step 13: Test application on localhost
+# Step 15: Test application on localhost
 
-The instructions for running are in the README.md file of the starter repo, which you can read here: <https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md>
+The instructions for running are in the README.md file of the starter repo, which you can read here: <https://github.com/ucsb-cs48-s20/demo-spring-google-oauth-app/blob/master/README.md>
 
 The basic command is `mvn spring-boot:run`
 
-Start up your server and verify that you can interact with it on `localhost:8080` in the same ways you interacted with the sample implementation at <https://cs48-btk5h-demo-nextjs-app.now.sh/>
+Start up your server and verify that you can interact with it on `localhost:8080` in the same ways you interacted with the sample implementation at <https://demo-spring-google-oauth-app.herokuapp.com/>
 
 At first, you won't able to access the admin functions.  We'll fix that in the next step
 
-# Step 13: Test application **as an admin** on localhost
+# Step 16: Test application **as an admin** on localhost
 
 Now, let's configure yourself as an admin, and run the app again.
 
@@ -301,7 +301,7 @@ see a menu for Users and one for Admins.
 
 If it works, proceed to the next step.
 
-# Step 14: Understanding GitHub Actions
+# Step 17: Understanding GitHub Actions
 
 
 At this point, if you look at your GitHub repo, you'll probably see that there
@@ -316,7 +316,7 @@ If, instead, you see a red X, then something is wrong with the tests.   In this 
 happening for this simple "getting started" lab.
 
 
-# Step 15: Configure application to run on Heroku
+# Step 18: Configure application to run on Heroku
 
 In this step, we put the application online on the public web, using a service known as Heroku
 
@@ -373,7 +373,7 @@ Heroku allows us to deploy web applications in Java rather easily.
 *A note about security*: Let's say up front that this is a risky thing to do.   You need to be very careful about security when deploying web applications to the public internet.  Fortunately, this particular application is rather simple and low-risk.   We'll discuss web security throughout the course.
 
 
-# Step 16: Submit on Gauchospace
+# Step 19: Submit on Gauchospace
 
 
 When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
