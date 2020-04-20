@@ -263,11 +263,11 @@ This configuration is explained here: <https://ucsb-cs48.github.io/topics/oauth_
 
 # Step 15: Test application on localhost
 
-The instructions for running are in the README.md file of the starter repo, which you can read here: <https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md>
+The instructions for running are in the README.md file of the starter repo, which you can read here: <https://github.com/ucsb-cs48-s20/demo-spring-google-oauth-app/blob/master/README.md>
 
 The basic command is `mvn spring-boot:run`
 
-Start up your server and verify that you can interact with it on `localhost:8080` in the same ways you interacted with the sample implementation at <https://cs48-btk5h-demo-nextjs-app.now.sh/>
+Start up your server and verify that you can interact with it on `localhost:8080` in the same ways you interacted with the sample implementation at <https://demo-spring-google-oauth-app.herokuapp.com/>
 
 At first, you won't able to access the admin functions.  We'll fix that in the next step
 
