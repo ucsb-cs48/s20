@@ -33,9 +33,12 @@ ready: true
 * <https://ucsb-cs48.github.io/s20/lab/lab00/>
 
 
-# Today
+# Today: Retrospective
 
-*
+* We'll put you in breakout groups.
+* When you are finished, just leave.
+  * No need to come back to main room, unless you have questions
+* Staff will be dropping in to observe.
 
 # Deliverable
 
@@ -61,16 +64,15 @@ ready: true
 
 * After the Retro
 
-  All Team members: Fill out survey
-
- 
-  ## Brief description of how retro went
-
-  Retro leader fill this in.
+  All Team members: Fill out survey (see Slack for link)
+  
+  Retro leader: add Section to `team/RETROS.md`
+  
+  ```
+  ## Retro Assessment
 
   * A brief description of what retro outline or process you used.
   * A brief assessment of how it went.
   * What advice would you give to the next person leading a retro
     based on what you learned today?
-
   ```
