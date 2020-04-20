@@ -63,7 +63,10 @@ ready: true
 
   All Team members: Fill out survey
 
- 
+
+  Retro Leader: add this to `team/RETROS.md` and fill it in:
+
+  ```
   ## Brief description of how retro went
 
   Retro leader fill this in.
