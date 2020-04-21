@@ -13,14 +13,6 @@ ready: true
 * Present: name1, name2, ... , nameN
 * Absent: name1, name2, ...
 
-* Online tool: <https://link.goes/here>
-
-## Why I chose this tool
-
-## Anything you need to do to prepare for the retro
-
-## Instructions for the retro
-
 ## Action item
 
 * a goal: identify something the team wants to get better at
