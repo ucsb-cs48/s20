@@ -101,6 +101,7 @@ The person that created the qa app should now
 * Ask that team member to add everyone else on the team to the qa app as a
   collborator (they can open two tabs: one to prod and one to qa, just copy/paste
   the emails one at a time.)
+* Add the instructor / TAs to the qa instance also.
 
 
 # Step 6: Deploy App (another team member)
