@@ -193,18 +193,23 @@ Then, proceed to Step 9 to update the Config Vars.
 At this point, you may need to do additional configuration, depending on your 
 tech stack to get the app to come up.
 
-* On next.js
-  * Add a `SESSION_COOKIE_SECRET` value, as explained in the documentation
-    for [demo-nextjs-app](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md)
-  * Run `npx heroku-dotenv push --app cs48-s20-t0-s0-prod` to copy the values in your
-    `.env` file into the Heroku Config Vars.
-  * Redeploy your app from the master branch
-    (note that changig config vars should do this automatically)
-	
-* On Spring Boot:
-  * Run `./setHerokuEnv.sh --app cs48-s20-t0-s0-prod`
-  * Redeploy your app from the master branch
-    (note that changig config vars should do this automatically)
+## For next.js
+* Add a `SESSION_COOKIE_SECRET` value, as explained in the documentation
+  for [demo-nextjs-app](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md)
+* Run `npx heroku-dotenv push --app cs48-s20-t0-s0-prod` to copy the values in your
+  `.env` file into the Heroku Config Vars.
+* Redeploy your app from the master branch
+  (note that changig config vars should do this automatically)
+* In addition, you may need these changes if they were not already made in the starter code you used.  Each of these is 
+  - Under `"scripts"`nfor the key `"start"` you need `"next start -p $PORT"`
+  - Move `dotenv` from `devdependencies` to `dependencies`
+  - Type `npm install --save-dev heroku-dotenv` which adds `heroku-dotenv` into your `devdependencies` section
+  - Run `npm install` again
+    
+## For Spring Boot:
+* Run `./setHerokuEnv.sh --app cs48-s20-t0-s0-prod`
+* Redeploy your app from the master branch
+  (note that changig config vars should do this automatically)
 
 # Step 10: Your app should now work!
 
