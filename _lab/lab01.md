@@ -201,7 +201,7 @@ tech stack to get the app to come up.
 * Redeploy your app from the master branch
   (note that changig config vars should do this automatically)
 * In addition, you may need these changes if they were not already made in the starter code you used.  Each of these is 
-  - Under `"scripts"`nfor the key `"start"` you need `"next start -p $PORT"`
+  - Under `"scripts"` for the key `"start"` you need `"next start -p $PORT"`
   - Move `dotenv` from `devdependencies` to `dependencies`
   - Type `npm install --save-dev heroku-dotenv` which adds `heroku-dotenv` into your `devdependencies` section
   - Run `npm install` again
