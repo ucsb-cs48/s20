@@ -7,11 +7,13 @@ ready: true
 
 # lab00 announcements
 
+* Almost everyone is done... just 3 folks on Spring Boot, and 4 on next.js.
+* Please get it done asap
+
 # Slack tips
 
 * You can find a person's local time zone by clicking on their avatar
 * Handy if/when you have folks working across multiple time zones
-
 
 # Standup
 
