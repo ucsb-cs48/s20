@@ -5,6 +5,13 @@ num: lect10
 ready: true
 ---
 
+# lab00 announcements
+
+# Slack tips
+
+* You can find a person's local time zone by clicking on their avatar
+* Handy if/when you have folks working across multiple time zones
+
 
 # Standup
 
