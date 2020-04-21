@@ -65,3 +65,58 @@ the same database across these deployments.   However, eventually,
 you'll definitely want to have separate MongoDB databases for the
 different deployments of your app.  We'll set that up in lab02.
 
+# The details: lab01
+
+For the details, see:
+
+* <https://ucsb-cs48.github.io/s20/lab/lab01/>
+
+This is a group grade.  You'll make one submission for the entire group on Gauchospace.
+
+You should see that you are now assigned to groups on Gauchospace that correspond to your teams.
+
+If you find that you are assigned to the wrong team on Gauchospace, let us know and we'll correct that; send a message
+in the `#lab01` channel on the course slack <https://ucsb-cs48-s20.slack.com>.
+
+
+# Today: Please work on lab01 as a group
+
+If you finish, then use the time however you see fit.
+
+* Work on Learning Plan
+* Work on refining iterations
+* **OR, get started with coding**
+
+# If coding, please use: feature-branch/pull request workflow
+
+If you know about how to do "feature-branch/Pull Request" workflow,
+you can proceed with staring to work on stories for your MVP.
+
+(Some of you may have done that already)
+
+We'll discuss it in detail on Thursday, but as a quick reminder:
+
+* Never work directly on `master`; always create a feature branch
+* Example:
+  ```
+  git checkout master
+  git pull origin master
+  git checkout -b cgAddRidersMenu
+  ```
+  
+* Be sure to assign issues to individuals and drag them into the "In Progress" column.
+* It's a good practice to comment on the issue with the name of the branch where you are working on it.
+* Drag issues to the "In Review" column when they are ready to be reviewed by the team.
+  * This is a good time to rebase the feature branch on master, and the deploy that branch to
+    the QA site, and have everyone bang on it to try to find any bugs or problems.
+* Drag them to "Done" only after they've been merged to master and are deployed on the production site.
+
+If this workflow is new to you, see if someone on your team knows about it and can exlain it to the team.
+
+If your *entire* team is new to this workflow:
+* ask for help, and someone from the staff can help you get you up to speed, OR
+* wait for Thursday's lecture
+
+
+
+
