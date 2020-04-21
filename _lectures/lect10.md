@@ -26,8 +26,6 @@ ready: true
 * Next Retro will be Monday, 05/04/20
 * Choose that person, and add their name to team/LEADERSHIP.md
 * Assignment for that person:
-  - Look at the links below and choose an "online retro tool"
-    for your next retro.
   - Go ahead and put a section in team/RETROS.md anticipating
     your next retro.   You can find a template for that here:
     [retro2]({{'/lectures/lect10/retro2' | relative_url}})
