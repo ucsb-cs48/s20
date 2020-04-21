@@ -1,7 +1,7 @@
 ---
 assigned: 2020-04-13 16:00
 desc: Deployment Practice
-due: 2020-04-17 17:00
+due: 2020-04-22 23:59
 layout: lab
 num: lab00
 ready: false

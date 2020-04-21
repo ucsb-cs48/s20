@@ -1,4 +1,7 @@
 ---
+desc: "Tuesday Lecture: Retro2 Template"
+lecture_date: 2020-04-21
+ready: true
 ---
 
 # Markdown Template for Retro 2
