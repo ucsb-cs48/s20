@@ -264,6 +264,8 @@ before accepting pull requests to the master branch.
 |s3-t2-meal-plan|<https://cs48-s20-s3-t2-qa.herokuapp.com>|
 |s3-t3-poker|<https://cs48-s20-s3-t3-qa.herokuapp.com>|
 |s3-t4-textbooks|<https://cs48-s20-s3-t4-qa.herokuapp.com>|
+{:.table .table-sm .table-striped .table-bordered}
+
 
 # Step 12: Submit on Gauchospace
 
