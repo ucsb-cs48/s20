@@ -224,18 +224,21 @@ way as you did before, prior to running this command.
 
 After doing this, repeat the `npm install` command to update the dependencies before proceeding.
 
-# Step 16: Configure application to run on now.sh
+# Step 16: Configure application to run on ~~now.sh~~ Heroku
 
-In this step, we put the application online on the public web, using a service known as now.sh.
+In this step, we put the application online on the public web, using a service known as ~~now.sh.~~ Heroku.
 
 We will also refer to this as "running in production", since it is a public facing version of our running code, running 24/7 on a web server in the cloud.
 
 The instructions for doing this are in the {{page.README_link}} for the starter code under the heading:
 
-> Deploying to now.sh for the first time
+> ~~Deploying to now.sh for the first time~~
+
+> Deployment to Production
 
 Follow those instructions, including
 the adjustments needed to the Auth0 configuration for production.
+
 
 # Step 17: Submit on Gauchospace
 
@@ -246,7 +249,8 @@ In the text area, enter something like this, substituting your repo name and you
 
 <div style="font-family:monospace;">
 repo name: https://github.com/ucsb-cs48-s20/cgaucho_lab00<br>
-on now.sh: https://cs48-cgaucho0-lab00.now.sh<br>
+<span style="text-decoration: line-through;">on now.sh: https://cs48-cgaucho0-lab00.now.sh</span><br>
+on Heroku: https://cs48-cgaucho0-lab00.herokuapp.com<br>  
 </div>
 
 Then, **and this is super important**, please make both of those URLs **clickable urls**.
