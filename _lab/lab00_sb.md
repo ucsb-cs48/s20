@@ -335,9 +335,19 @@ Then, click on "deploy branch".
 
 You should see a log of the deployment in the screen.  When it is finished, there will be an "Open App" button where you can open up the URL for your app.
 
-Note that while the app may come up, Google OAuth may not work immediately.  To get it to work, you may need to do some additional configuration.    That involves adding the address of your Heroku app as an additional redirect URI for your Google OAuth app.
+The app will probably crash the first time you try to bring it up.  This because you need to do one additional step, namely
+to configure the app for Google OAuth.
 
-That step is explained here: <https://ucsb-cs48.github.io/topics/oauth_google_setup/>
+
+This step involves:
+* adding the address of your Heroku app as an additional redirect URI for your Google OAuth app.
+* configuring the secrets in `secrets-heroku.properties` (similar to secrets-localhost.properties)
+* running the `setHerokuEnv.sh --app yourHerokuAppName` command.
+
+That step is explained in detail here: <https://ucsb-cs48.github.io/topics/oauth_google_setup/>
+
+
+
 
 # Troubleshooting
 
