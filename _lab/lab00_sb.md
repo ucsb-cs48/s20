@@ -1,7 +1,7 @@
 ---
 assigned: 2020-04-13 16:00
 desc: "Deployment Practice: Spring Boot"
-due: due: 2020-04-22 23:59
+due: 2020-04-22 23:59
 layout: lab
 num: lab00_sb
 ready: false
