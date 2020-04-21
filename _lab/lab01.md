@@ -39,6 +39,11 @@ You’ll be asked for:
   Don’t worry; your choice doesn’t prevent you from using the
   account with other languages later such as Ruby or Python
 
+**NOTE for folks with existing Heroku Accounts**: If you already have a Heroku account
+on the free tier from CS56, you might need to delete old apps to make space for new ones.   There is a limit of
+five apps on the free tier of Heroku (unless/until you enter a credit card.)
+
+
 # Step 2: Install Heroku CLI (every team member)
 
 CLI stands for Command Line Interface.  The Heroku CLI gives you the ability to
