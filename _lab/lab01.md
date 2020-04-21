@@ -248,22 +248,22 @@ before accepting pull requests to the master branch.
 
 |team|qa|
 |----|----|
-|s0-t1-budget|<https://cs48-s20-s0-t1-budget-qa.herokuapp.com>|
-|s0-t2-env|<https://cs48-s20-s0-t2-env-qa.herokuapp.com>|
-|s0-t3-iv-housing|<https://cs48-s20-s0-t3-iv-housing-qa.herokuapp.com>|
-|s0-t4-new-city|<https://cs48-s20-s0-t4-new-city-qa.herokuapp.com>|
-|s1-t1-music-queue|<https://cs48-s20-s1-t1-music-queue-qa.herokuapp.com>|
-|s1-t2-music-queue|<https://cs48-s20-s1-t2-music-queue-qa.herokuapp.com>|
-|s1-t3-expense|<https://cs48-s20-s1-t3-expense-qa.herokuapp.com>|
-|s1-t4-missile|<https://cs48-s20-s1-t4-missile-qa.herokuapp.com>|
-|s2-t1-care|<https://cs48-s20-s2-t1-care-qa.herokuapp.com>|
-|s2-t2-free|<https://cs48-s20-s2-t2-free-qa.herokuapp.com>|
-|s2-t3-slack-bot|<https://cs48-s20-s2-t3-slack-bot-qa.herokuapp.com>|
-|s2-t4-mafia|<https://cs48-s20-s2-t4-mafia-qa.herokuapp.com>|
-|s3-t1-accountant|<https://cs48-s20-s3-t1-accountant-qa.herokuapp.com>|
-|s3-t2-meal-plan|<https://cs48-s20-s3-t2-meal-plan-qa.herokuapp.com>|
-|s3-t3-poker|<https://cs48-s20-s3-t3-poker-qa.herokuapp.com>|
-|s3-t4-textbooks|<https://cs48-s20-s3-t4-textbooks-qa.herokuapp.com>|
+|s0-t1-budget|<https://cs48-s20-s0-t1-qa.herokuapp.com>|
+|s0-t2-env|<https://cs48-s20-s0-t2-qa.herokuapp.com>|
+|s0-t3-iv-housing|<https://cs48-s20-s0-t3-qa.herokuapp.com>|
+|s0-t4-new-city|<https://cs48-s20-s0-t4-qa.herokuapp.com>|
+|s1-t1-music-queue|<https://cs48-s20-s1-t1-qa.herokuapp.com>|
+|s1-t2-music-queue|<https://cs48-s20-s1-t2-qa.herokuapp.com>|
+|s1-t3-expense|<https://cs48-s20-s1-t3-qa.herokuapp.com>|
+|s1-t4-missile|<https://cs48-s20-s1-t4-qa.herokuapp.com>|
+|s2-t1-care|<https://cs48-s20-s2-t1-qa.herokuapp.com>|
+|s2-t2-free|<https://cs48-s20-s2-t2-qa.herokuapp.com>|
+|s2-t3-slack-bot|<https://cs48-s20-s2-t3-qa.herokuapp.com>|
+|s2-t4-mafia|<https://cs48-s20-s2-t4-qa.herokuapp.com>|
+|s3-t1-accountant|<https://cs48-s20-s3-t1-qa.herokuapp.com>|
+|s3-t2-meal-plan|<https://cs48-s20-s3-t2-qa.herokuapp.com>|
+|s3-t3-poker|<https://cs48-s20-s3-t3-qa.herokuapp.com>|
+|s3-t4-textbooks|<https://cs48-s20-s3-t4-qa.herokuapp.com>|
 
 # Step 12: Submit on Gauchospace
 
