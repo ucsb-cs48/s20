@@ -41,6 +41,9 @@ You’ll be asked for:
 
 # Step 2: Install Heroku CLI (every team member)
 
+CLI stands for Command Line Interface.  The Heroku CLI gives you the ability to
+type `heroku` as a command at the shell/terminal prompt.
+
 If you haven't already done so, install the Heroku CLI on your system
 (it's already installed on CSIL).
 
