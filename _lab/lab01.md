@@ -201,7 +201,7 @@ tech stack to get the app to come up.
   | Key                        | Value                                             | Example                                                     |
   | -------------------------- | ------------------------------------------------- | ----------------------------------------------------------- |
   | `REDIRECT_URI`             | Your production URL with `/api/callback` appended | `https://cs48-s20-s0-t0-prod.herokuapp.com/api/callback` |
-  | `POST_LOGOUT_REDIRECT_URI` | Your production URL                               | `https://cs48-s20-s0-t0-prod.herokuapp.com/api/callback` |
+  | `POST_LOGOUT_REDIRECT_URI` | Your production URL                               | `https://cs48-s20-s0-t0-prod.herokuapp.com` |
   
 * Run `npx heroku-dotenv push --app cs48-s20-t0-s0-prod` to copy the values in your
   `.env` file into the Heroku Config Vars.
