@@ -289,3 +289,9 @@ I recommend taking a screen shot of the submission and posting it to the group's
 channel so that everyone can be confident that it was done.
 
 To submit, visit: <{{page.gauchospace}}>
+
+# Useful hints
+
+## next.js
+
+If someone configured the `.env` values for your app and did a `npx heroku-dotenv push --app cs48-s20-s0-t0-prod` to push those values, other members of your team can also do `npx heroku-dotenv pull --app cs48-s20-s0-t0-prod`  to load those values into their `.env` file
