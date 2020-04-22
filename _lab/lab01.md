@@ -196,6 +196,13 @@ tech stack to get the app to come up.
 ## For next.js
 * Add a `SESSION_COOKIE_SECRET` value, as explained in the documentation
   for [demo-nextjs-app](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/master/README.md)
+* Go to the Setting page in the Heroku Dashboard and add two config vars:
+
+  | Key                        | Value                                             | Example                                                     |
+  | -------------------------- | ------------------------------------------------- | ----------------------------------------------------------- |
+  | `REDIRECT_URI`             | Your production URL with `/api/callback` appended | `https://cs48-s20-s0-t0-prod.herokuapp.com/api/callback` |
+  | `POST_LOGOUT_REDIRECT_URI` | Your production URL                               | `https://cs48-s20-s0-t0-prod.herokuapp.com/api/callback` |
+  
 * Run `npx heroku-dotenv push --app cs48-s20-t0-s0-prod` to copy the values in your
   `.env` file into the Heroku Config Vars.
 * Redeploy your app from the master branch
