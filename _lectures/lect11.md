@@ -123,4 +123,42 @@ Once you create a Pull Request, you should:
 
 If you are asked to review a PR, please do so promptly.
 
+Diplomacy is good... it's better to ask questions than make statements.
 
+```
+I wonder if this code would be clearer if factored out both the long if
+part and the long else part into separate functions?   Choosing
+some good names for those and some good parameter values might make this
+code easier to understand.  What do you think?
+```
+
+vs.
+
+```
+This code is a convluded mess---so complicated that no-one could
+possibly make sense of it.  You should totally rewrite this!
+```
+
+Both of these might be honest and understandable reactions to 
+the same code.  But one is much more likely to result in good
+team relations and team productivity.   Choose wisely.
+
+# Today:
+
+* Standup
+* See if you ready to start coding
+  * If not, what are your blockers?
+  * If so, divide up your MVP stories and assign each team member to one.
+  * Think about order, and about whether anything can be done in parallel
+
+If your app is already recognizable as "yours", great.
+
+If not, consider adding a story to 
+* remove the dogs 
+* change "demo" to the name of your actual app
+* if you don't need logins yet, just remove the login button from the UI for now
+  (You can always bring it back later if needed.)
+  
+First milestone: By one week from today, your app should be recognizable as your app.
+
+Not yet MVP.   Deadline for that two weeks from today.
