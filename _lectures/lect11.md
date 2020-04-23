@@ -46,6 +46,9 @@ You may need, periodically, to push your changes to GitHub.  Use the branch name
 
 * `git push origin pcAddMenuItem` 
 
+
+# Rebasing on master
+
 You may need, from time to time, to rebase your branch on master.
 
 This is to say, replay all of the changes on your branch on top of a *fresh* copy of master.
@@ -78,6 +81,24 @@ Eventually, you'll have a new version of your branch, at which point you'll want
 ```
 git push --force origin pcAddMenuItem
 ```
+# Creating a Pull Request
 
+When you create a pull request, you have to select a *base* branch and a *compare* branch.
+
+* The "base" branch is typically `master`; it's where the "old code" lives
+* The "compare" branch is typically your feature branch; it's where the "new code" lives.
+
+You are requesting that the admins of the repo pull commits from the compare branch into the base branch.
+
+Once you create a Pull Request, you should:
+
+* Link the issue you were working on to the Pull Request
+* Ask for members of your team to review the Pull Request (through the GitHub Web UI)
+* Consider posting a link to the PR on your team's Slack channel (there are ways to automate this, but let's not get ahead of ourselves.)
+* Drag the issue you are working on from the "In Progress" column into the "In Review" column.
+
+# Reviewing a PR
+
+If you are asked to review a PR, please do so promptly.
 
 
