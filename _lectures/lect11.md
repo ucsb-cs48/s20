@@ -23,7 +23,29 @@ Reasonable exceptions: small changes to documentation only (not touching code).
 * Work on the feature branch
 * When done, make a Pull Request
 
-# How do you make a feature branch?
+# Whoa, whoa getting ahead of ourselves: issue first.
+
+WAIT.
+
+Before you start working on a branch:
+* There should be an issue on the Kanban board.  If there isn't, make one.
+* Be sure the issue has clear acceptance criteria, formatted as a checklist:
+  ```
+  - [ ] There is a menu item called `Users`
+  - [ ] The menu item `Users` only appears when logged in as an Admin
+  - [ ] The menu item `Users` leads to an page that lists users
+  - [ ] The column headings for the users list is First, Last, and Email
+  etc.
+  ```
+* Assign yourself to the issue and drag the issue into the "In Progress" column.
+* Assign any pair partners working with you to the issue also.
+
+Once your team is in steady state, you should always be assigned to at least one in-progress issue
+on the Kanban board.
+
+# Ok, got an issue.  How do you make a feature branch?
+
+Like this.  Always start with a fresh copy of master:
 
 ```
 git checkout master
