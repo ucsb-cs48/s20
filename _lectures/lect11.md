@@ -12,7 +12,7 @@ When making a change to your team's repo, you should typically NOT be making cha
 
 * At many companies, the `master` branch is a "protected" branch.
 * There is "process and ceremony" around when/where changes to `master` are pushed.
-  * Things have to have to be done first
+  * Certain things may have to be done first (code reviews, testing, etc.)
   * Sometimes only certain members of the team do it
  
 Reasonable exceptions: small changes to documentation only (not touching code).
