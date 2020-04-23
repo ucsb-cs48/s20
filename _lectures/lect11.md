@@ -30,6 +30,7 @@ WAIT.
 Before you start working on a branch:
 * There should be an issue on the Kanban board.  If there isn't, make one.
 * Be sure the issue has clear acceptance criteria, formatted as a checklist:
+
   ```
   - [ ] There is a menu item called `Users`
   - [ ] The menu item `Users` only appears when logged in as an Admin
@@ -37,6 +38,7 @@ Before you start working on a branch:
   - [ ] The column headings for the users list is First, Last, and Email
   etc.
   ```
+  
 * Assign yourself to the issue and drag the issue into the "In Progress" column.
 * Assign any pair partners working with you to the issue also.
 
