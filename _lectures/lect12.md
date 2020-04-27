@@ -7,6 +7,11 @@ ready: true
 
 Announcements:
 
+# Homework H04 / H05
+
+* H04 "late" deadline extended to midnight Tuesday
+* H05 deadline is still tonight at midnight, "late" deadline midnight Tuesday
+
 # `cs48-s20-nextjs-tutorial`
 For those on the next.js path, this repo's "closed PRs" may have some useful content:
 * <https://github.com/ucsb-cs48-s20/cs48-s20-nextjs-tutorial/pulls?q=is%3Apr+is%3Aclosed>
