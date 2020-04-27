@@ -1,6 +1,6 @@
 ---
 desc: "Tuesday Lecture: review"
-lecture_date: 2020-04-27
+lecture_date: 2020-04-28
 num: lect13
 ready: false
 ---
