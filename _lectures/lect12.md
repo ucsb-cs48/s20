@@ -20,6 +20,14 @@ Each one shows how to do *just one thing* with a next.js repo.  For example:
 
 More to come, plus some explanation
 
+# Reminder
+
+By Thursday, the production site (linked to from lab01 instructions) should clearly be a placeholder for your app, and not jsut demo code.
+
+If you need help with knowing how to proceed with that, today is a good day to identify that as a need.
+
+Later today, there is an exercise where, as a team, you'll identify support you need from the staff.
+
 # Today
 
 * standup
@@ -60,6 +68,18 @@ to try out your MVP app.   Include everything they need to know, or a pointer to
 they know what to do with your app.    For example, if the app plays the "mafia game" or "poker", include enough
 detail of the game *or* a *link to a description of your game* so that a user will understand your app.)
 
+## Production App placeholder
+
+(Enter a link here to your production app, e.g. <https://cs48-s20-s0-t1-prod.herokuapp.com/>)
+
+(Then Enter only one of these)
+
+* Team has completed production app placeholder
+* Team is on track to complete production app placeholder by noon Thursday (04/30/2020)
+* Team needs help to be able to complete production app placeholder by noon Thursday (04/30/2020)
+
+(If help is needed, specify here where the team is stuck.)
+
 ## MVP Status
 
 (Enter only one of these)
@@ -73,7 +93,7 @@ detail of the game *or* a *link to a description of your game* so that a user wi
 What obstacles remain to completing MVP:
 * List them as bullet items
 
-Support that would be helpful from course staff to completing MVP:
+Support that would be helpful from course staff to completing MVP
 * List ideas as bullet items
 
 ## (Include anything else your team thinks is important to document)
