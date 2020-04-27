@@ -27,7 +27,7 @@ More to come, plus some explanation
 
 # Reminder
 
-By Thursday, the production site (linked to from lab01 instructions) should clearly be a placeholder for your app, and not jsut demo code.
+By Thursday, the production site (linked to from lab01 instructions) should clearly be a placeholder for your app, and not just demo code.
 
 If you need help with knowing how to proceed with that, today is a good day to identify that as a need.
 
