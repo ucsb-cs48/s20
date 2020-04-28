@@ -5,14 +5,22 @@ num: lect13
 ready: false
 ---
 
-# NOTE: There may be more added to these notes later.
+# Announcements
+
+* H04 / H05 due tonight midnight.
+* Reasonable Placeholder by Thursday 
+* MVP by next Thursday.
 
 # Today
 
 * Standup
 * Review your Kanban board, and PRs
+* In `team/LEADERSHIP.md`
+  * Retro leader for Monday May 4
+  * Leader for Sprint Goal discussion Tuesday May 5
+  * Someone to do demo of MVP on Thursday May 7
+  * No repeats until everyone has taken a turn
 * Use the rest of the time as you see fit.
-
 
 # Review Kanban board / PRS
 
