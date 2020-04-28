@@ -22,7 +22,7 @@ ready: false
   * No repeats until everyone has taken a turn
 * Use the rest of the time as you see fit.
 
-# Review Kanban board / PRS
+# Review Kanban board / PRs
 
 One member of team share Kanban board on screen
 * Go over the "In-Progress" column; does it reflect reality?
