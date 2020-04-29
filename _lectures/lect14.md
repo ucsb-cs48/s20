@@ -20,3 +20,12 @@ If you are willing to allows us to give other class teams "read only" access to 
 * Approach 1: Find any old javascript tutorial, and the wedge it into next.js
 * Approach 2: Actually look for React + Plaid, or Next.js + socket.io, etc.
 
+# Big picture patterns
+
+* socket.io for real time communication
+  - Missile, Spotify Queues, Poker?, Mafia?
+* loading big datasets
+  - new-city (Spring Boot), other teams?
+* OAuth other than Google
+  - Plaid API (has it's own OAuth), Slack-Bot (Slack has it's own OAuth).
+  
