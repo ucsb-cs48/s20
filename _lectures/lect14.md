@@ -15,3 +15,8 @@ ready: false
 
 If you are willing to allows us to give other class teams "read only" access to your code, pleae let us know.
 
+# Integrating with 3rd Parties
+
+* Approach 1: Find any old javascript tutorial, and the wedge it into next.js
+* Approach 2: Actually look for React + Plaid, or Next.js + socket.io, etc.
+
