@@ -90,7 +90,13 @@ particular issues with MongoDB or uses of React) without risks of making repos f
 
 # Let us know by adding a line to top of `team/AGREEMENTS.md`
 
-Choose one of the three options below paste it in:
+If there isn't already heading at the top of your existing team agreements file, add one, e.g. 
+
+```
+# Initial Team Agreements
+```
+
+Then, *above that* at the top of the file, copy/paste one of these three options.  (Optionally, you may also add another other discussion points that seem relevant, e.g. if there was disagreement and you came to a compromise, or the concerns that led you to your decision.)
 
 1. Fully open source
    ```
@@ -105,8 +111,7 @@ Choose one of the three options below paste it in:
    # 4/30/2020
 
    Team decided to keep repo closed source, but allow read only access to other CS48 S20 teams on a limited basis, 
-   as determined
-   by course staff when there is an learning opportunity.
+   as determined by course staff when there is an learning opportunity.
    ```
 
 3. Fully closed source, including to classmates
@@ -114,7 +119,7 @@ Choose one of the three options below paste it in:
    ```
    # 4/30/2020
 
-   Team decided to keep repo closed source, with no access by other teams.
+   Team decided to keep repo closed source, with access only by course staff, not by other teams.
    ```
 
 # Integrating with 3rd Parties
