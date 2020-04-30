@@ -1,6 +1,6 @@
 ---
 desc: "Thursday Lecture: public vs private, licenses, 3rd party libraries, more"
-lecture_date: 2020-04-28
+lecture_date: 2020-04-30
 num: lect14
 ready: false
 ---
