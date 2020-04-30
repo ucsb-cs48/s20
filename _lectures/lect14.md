@@ -26,7 +26,9 @@ In Breakout Groups:
 
 * Standup
 * Check your Team's row on <https://ucsb-cs48.github.io/s20/teams_page/>
-  - Especially check the 
+  - Especially check the Kanban board link
+  - If your team is using multiple Kanban boards, let a staff member know  which one is currently the primary active one, so we can update the table; the project number goes in the Project Number column.
+  - If your team has multiple repos (e.g. one for front end and one for back end, as `s3-t3-poker` is doing) then the kanban project board is at the organization level.  We indicate this by putting a lowercase `p` in front of the project number.
 * Staff will ask about aspects/feature of your app 
   - Purpose of this is to help us figure out how to promote more sharing of learning across teams, and what to focus on.
   - Staff will fill in row [in this table](https://docs.google.com/spreadsheets/d/1vRz72xn1w1PXdIOZP1ieny6_AS0o8gXjCaih-IauJAo/edit?usp=sharing)
