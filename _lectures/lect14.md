@@ -1,5 +1,5 @@
 ---
-desc: "Thursday Lecture: "
+desc: "Thursday Lecture: public vs private, licenses, 3rd party libraries, more"
 lecture_date: 2020-04-28
 num: lect14
 ready: false
@@ -27,6 +27,13 @@ In Breakout Groups:
 * Standup
 * Check your Team's row on <https://ucsb-cs48.github.io/s20/teams_page/>
   - Especially check the 
+* Staff will ask about aspects/feature of your app 
+  - Purpose of this is to help us figure out how to promote more sharing of learning across teams, and what to focus on.
+  - Staff will fill in row [in this table](https://docs.google.com/spreadsheets/d/1vRz72xn1w1PXdIOZP1ieny6_AS0o8gXjCaih-IauJAo/edit?usp=sharing)
+  - This may require some team discussion to figure out
+  - For each cell, enter yes / no / it's complicated / or ?
+  - If "it's complicated" is your answer, add a brief report in your `team/STATUS.md` file under today's date with an explanation.
+  - If you are unsure, just put a ? in the table and move on.
 * Discuss: Public or Private?
   * Add line near top of `team/AGREEMENTS.md` to indicate decision
   * See details below.
