@@ -5,20 +5,129 @@ num: lect14
 ready: false
 ---
 
+# Today in Lecture
+
+Plenary
+
+* Overview of lecture
+* Teams page on course website  <https://ucsb-cs48.github.io/s20/teams_page/>
+* Discussion of role of staff liaisons for teams
+* Discussion of Public vs. Private
+  - And limited in-class sharing
+* Considerations for Public Repos:
+  - Licenses (MIT, GPL, etc.)
+  - Auditing for secrets
+* High Level Concerns / Information Sharing across teams
+* Optional: a few words on MongoDB
+  - How to share MongoDB instances with your team
+  - How to have multiple MongoDB's for production / QA / dev
+  
+In Breakout Groups:
+
+* Standup
+* Check your Team's row on <https://ucsb-cs48.github.io/s20/teams_page/>
+  - Especially check the 
+* Discuss: Public or Private?
+  * Add line near top of `team/AGREEMENTS.md` to indicate decision
+  * See details below.
+* If public: 
+  - make it public
+  - add a LICENSE (e.g. MIT)
+    - This web site helps you choose a license <https://choosealicense.com/>
+    - It will also make an automatic PR to put the license in the repo
+  - Audit for secrets
+* Other work as you see fit
+
+# Staff Liaisons
+
+I've assigned staff liaisons for each team: 
+* since there are sixteen teams, each LA (undergrad) has three teams and Scott (the TA) has one team.
+
+The main role of the staff liaison is to be one central point of contact between each team and the staff.    
+
+Some of the roles these liaisons will play:
+* collecting information about your team's progress for course grading purposes
+* communicating to the instructor what kind of support your team needs from the staff
+
+Your can see which staff member was assigned to your team by visiting this link:  
+* <https://ucsb-cs48.github.io/s20/teams_page/>
+
+**Note that you'll continue to have interactions with many staff members.**
+
+While you might see your course liaison dropping in more often on your breakout groups than other staff members, we will still change things up now and then so you get a variety of perspectives.
+
 # public vs. private?
 
-- Be sure to audit for `.env, secrets-localhost.properties, secrets-heroku.properties`
-- Be sure to audit for secrets embedded in your code (e.g. from tutorials from other sources)
-- If you have any of these, even on older commits or other branches, do NOT make repo public unless/until you invalidate old secrets.
+pros/cons of going public (open source)
 
-# opting in to "limited" sharing within the class
+Pros: 
+* easier to share information with classmates
+* easier to share your code with potential employers
+
+Cons:
+* give up some privacy
+* must consider license and audit for secrets
+* if you plan to monetize (which is historically rare for CS48 projects) could be a problem.
+
+License concerns:
+* Easiest: slap an MIT license on it and forget it
+* Or, include GPL if you have strong feelings about not permitting closed source use
+
+Auditing for Secrets:
+
+- Be sure to audit for `.env, secrets-localhost.properties, secrets-heroku.properties`
+- Includes Auth0 credentials, but also MongoDB URIs.
+- Be sure to audit for secrets embedded in your code (e.g. from tutorials from other sources)
+- If you have any of these, even on older commits or other branches, do NOT make repo public unless/until you 
+  invalidate old secrets.  (How to do that is platform dependent--done on Auth0, or cloud.mongodb.com, etc.)
+
+# Another option: "limited" sharing within the class
 
 If you are willing to allows us to give other class teams "read only" access to your code, pleae let us know.
 
+This has the benefits of allowing us to do some sharing  (e.g. among teams using `socket.io` or solving
+particular issues with MongoDB or uses of React) without risks of making repos fully public.
+
+# Let us know by adding a line to top of `team/AGREEMENTS.md`
+
+Choose one of the three options below paste it in:
+
+1. Fully open source
+   ```
+   # 4/30/2020
+   
+   Team decided to make repo public (open source under ____ license).
+   ```
+
+2. Closed source, but open to classmates as needed
+
+   ```
+   # 4/30/2020
+
+   Team decided to keep repo closed source, but allow read only access to other CS48 S20 teams on a limited basis, 
+   as determined
+   by course staff when there is an learning opportunity.
+   ```
+
+3. Fully closed source, including to classmates
+
+   ```
+   # 4/30/2020
+
+   Team decided to keep repo closed source, with no access by other teams.
+   ```
+
 # Integrating with 3rd Parties
+
+Some comments on how to integrate with 3rd parties
 
 * Approach 1: Find any old javascript tutorial, and the wedge it into next.js
 * Approach 2: Actually look for React + Plaid, or Next.js + socket.io, etc.
+
+We encourage you to try #2 first, and use #1 only when approach #2 fails.
+
+In addition, today in lecture let us know (in the chat during the plenary if possible) what other third party libraries, functions, etc. you are trying to integrate with your code.   We'd like to help cross-pollination where possible to make it easier for all teams, and allow you to build better products.
+
 
 # Big picture patterns
 
