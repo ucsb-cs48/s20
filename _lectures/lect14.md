@@ -152,3 +152,8 @@ In addition, today in lecture let us know (in the chat during the plenary if pos
 * OAuth other than Google
   - Plaid API (has it's own OAuth), Slack-Bot (Slack has it's own OAuth).
   
+
+
+# MongoDB Setup
+
+* <https://ucsb-cs48.github.io/topics/mongodb_cloud_atlas_setup/>
