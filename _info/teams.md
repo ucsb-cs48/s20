@@ -11,5 +11,4 @@ permalink: "/teams_page/"
 
 <h2 id="teams" name="teams">Teams</h2>
 
-Coming soon
-
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSkoPjOmtPxoNJC3WUmRHVZTRVuLZswdriD2Z3rO-MZ8Djje-eHYapJN-31wV4eDrbcAnfasezGREN-/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
