@@ -6,7 +6,7 @@ permalink: "/teams_page/"
 
 
 <style> 
-  iframe { width: 100%; height: 800px; overflow: scroll; } 
+  iframe { width: 100%; height: 500px; overflow: scroll; } 
 </style>
 
 <h2 id="teams" name="teams">Teams</h2>
