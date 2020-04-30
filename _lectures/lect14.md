@@ -156,4 +156,11 @@ In addition, today in lecture let us know (in the chat during the plenary if pos
 
 # MongoDB Setup
 
-* <https://ucsb-cs48.github.io/topics/mongodb_cloud_atlas_setup/>
+* Setting up a MongoDB database for the first time:
+  - <https://ucsb-cs48.github.io/topics/mongodb_cloud_atlas_setup/>
+* Sharing access to a MongoDB database with your team 
+  - <https://ucsb-cs48.github.io/topics/mongodb_cloud_atlas_sharing/>
+* Setting up separate MongoDB instances for production, qa (staging) and dev
+  - No instructions yet, just a PR, but this shows what's needed 
+  - PR: <https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/pull/19>
+  - The change is only a change in the file `next.config.js`; the rest is documentation.
