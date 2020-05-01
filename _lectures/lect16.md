@@ -18,5 +18,10 @@ ready: false
 
 * Passing data within/among React components. 
  
+# Setting up MongoDB
+
+How do you connect to MongoDB?
+
+Tutorial from Bryan...   specifically in the context of React / Next.js
 
 
