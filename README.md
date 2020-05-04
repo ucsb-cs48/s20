@@ -11,7 +11,7 @@ in `_config.yml`
 
 The navigation is set by the values in `_data/navigation.yml`
 
-Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/ucsb-cs48/w20.svg?branch=master)](https://travis-ci.org/ucsb-cs48/s20)
+Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/ucsb-cs48/s20.svg?branch=master)](https://travis-ci.org/ucsb-cs48/s20)
 
 * Travis-ci: https://travis-ci.org/ucsb-cs48/s20
 * To add a status image like this in your README.md, see [these instructions](https://docs.travis-ci.com/user/status-images/)
