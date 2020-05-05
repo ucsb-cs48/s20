@@ -142,7 +142,7 @@ A bit more detail on each of these:
     noted below, the JavaScript code in these files runs on the client, i.e the "front end", after the page is loaded
     into the app.
     
-    The one exception in NextJS is code inside the function `getServerSideProps` ([see example](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L13).
+    The one exception in NextJS is code inside the function `getServerSideProps` ([see example](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L13)).
     
     
 2.  Often: Creating React components under `components/` 
