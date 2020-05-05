@@ -173,11 +173,36 @@ A bit more detail on each of these:
     it sends data formatted in JSON.    In addition in a `POST`, data is sent to the server, typically also formatted
     in JSON.
 
-    In the example above, a `GET` request returns a list of all of the students (as JSON) while a `POST` request allows
-    a new student to be created.   We can test a `GET` request directly in our browser.
+    In this example above, a `GET` request returns a list of all of the students (as JSON) while a `POST` request
+    creates a new student:
+
+    ```
+    async function performAction(req, user) {
+      const { section } = req.query;
+      
+      if (user.role !== "admin") {
+        throw { status: 403 };
+      }
+
+      switch (req.method) {
+        case "GET":
+          return getStudents(section);
+        case "POST":
+          return createStudent(req);
+      }
+
+      throw { status: 405 };
+    }
+    ```
     
-    For a `POST` request, it's more
-    complicated; we have to use a tool such as `curl` or [Postman](https://ucsb-cs48.github.io/topics/postman/), and set up the `POST` request with the exact format
+    The implementation of `getStudents()` can be seen [here](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/api/students/index.js#L5).   We can see the results
+    of this by first logging in to the site as an admin, and then visiting the `api/students` endpoint in our browser;
+    this works because the parameters are optional, and because by default, browsers always ask for web pages using
+    a `GET` request.
+    
+    Meanwhile, a `POST` request allows
+    a new student to be created.  Testing  a `POST` request is a bit more complicated.
+    We have to use a tool such as `curl` or [Postman](https://ucsb-cs48.github.io/topics/postman/), and set up the `POST` request with the exact format
     of the required headers and request body.
 
 #  Other topics that there may be questions about
