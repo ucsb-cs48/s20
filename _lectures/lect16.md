@@ -80,15 +80,21 @@ These videos may help
     - But the *concepts* and the way you work with Postman is the same.
 
 
+## GET vs. POST and idempotency
 
+Quick version
+* Use GET only for retrieving information; puts query parameters in URL
+* Use POST when updating information; puts query parameters in Body
 
+`GET` and `POST` are both examples of HTTP methods.   There are also `PUT`, `DELETE`, and several others.
 
+More information
+* 3 minutes: quick GET vs. POST <https://youtu.be/UObINRj2EGY>
+* 6 minutes: HTTP Methods in general, including idempotency <https://www.youtube.com/watch?v=guYMSP7JVTA>  
 
 
 #  Various Topics (rough notes)
-* Discuss how HTTP works
-  - Request / Response
-  - GET/POST and idempotency
+
 
 * Discuss *front-end* vs. *backend*
   - End point vs. API end points
