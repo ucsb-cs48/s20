@@ -65,6 +65,10 @@ So, make every effort to have your production version ready to go with a stable 
 
 # Various Topics
 
+## Passing data within/among React components.
+
+If you need to get data out of one react component (e.g. a form field) into another react component (e.g. something that is going to use that data to display something), consider putting the shared state (e.g. the field value) into a React component that is a *common ancestor* of the two components that need to share data.
+
 ## HTTP requests and responses
 
 You will see the idea of **request/response**  all over web programming.
