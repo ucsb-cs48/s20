@@ -204,6 +204,45 @@ A bit more detail on each of these:
     a new student to be created.  Testing  a `POST` request is a bit more complicated.
     We have to use a tool such as `curl` or [Postman](https://ucsb-cs48.github.io/topics/postman/), and set up the `POST` request with the exact format
     of the required headers and request body.
+    
+# useSWR: communication between front and back end
+
+The way in which the front end communicates with the backend is through something called `useSWR`.
+
+As an example, here is the code for adding, listing and deleting students in the file [`pages/admin/students.js`](
+https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L76) from the [`project-idea-reviewer-nextjs`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/):
+
+
+First, there is some code that initializes a value `ssr.props.initialData` with a list of the students. This is done on the server side before the page is rendered.
+
+```
+export const getServerSideProps = async ({ req, res }) => {
+  const ssr = await createRequiredAuth({ roles: ["admin"] })({ req, res });
+
+  ssr.props.initialData = (await getStudents()).map(serializeDocument);
+
+  return ssr;
+};
+```
+
+That `initialData` value is then used later in the definition of `export default function ManageStudentsPage` (which is the "main" function for `pages/admin/students.js).
+
+```
+ const { user, initialData } = props;
+ ...
+ const { data, mutate } = useSWR("/api/students", { initialData });
+```
+
+This sets up `useSWR` to communicate with the code at `/api/students`, and gives us a `data` and `mutate` variable that we can use to do various operations.
+
+The way in which those operations are used is illustrated in various functions:
+
+| function | remarks |
+|----------|---------|
+| [`addStudent`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L85) | |
+| [`deleteStudent`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L134) | Uses [`pages/api/students/[studentId].js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/api/students/%5BstudentId%5D.js#L35) which uses the `DELETE` method instead of `GET` or `POST` |
+| [listing students](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L240) | done by passing `data` into the React component |
+
 
 #  Other topics that there may be questions about
 
