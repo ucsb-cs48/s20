@@ -134,7 +134,7 @@ A bit more detail on each of these:
     |         | Project | File | URL |
     |---------|------|------|--------|
     | Simple Example | `project-idea-reviewer-nextjs` | [`pages/index.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/index.js#L1) | [`/`](https://project-idea-reviewer-nextjs.herokuapp.com/) |
-    | More Complex Example | `project-idea-reviewer-nextjs` | [`pages/ideas.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L127) | [`/ideas`](https://project-idea-reviewer-nextjs.herokuapp.com/ideas) |
+    | More Complex Example | `project-idea-reviewer-nextjs` | [`pages/ideas.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L104) | [`/ideas`](https://project-idea-reviewer-nextjs.herokuapp.com/ideas) |
     {:.table .table-sm .table-striped .table-bordered}
 
     
