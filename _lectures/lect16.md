@@ -47,7 +47,7 @@ So, make every effort to have your production version ready to go with a stable 
    
    It's not ideal, but it won't be a major deduction.  It's better than demoing a broken `master` branch.
    
-3. **A demo from `localhost` is better than nothing, but isn't really an MVP demo`.   If you absolutely 
+3. **A demo from `localhost` is better than nothing, but isn't really an MVP demo**.   If you absolutely 
    *cannot* do a meaningful demo from your production app, then you may demo from `localhost` as a last resort, rather
    than offering no demo at all.   However, that will result in a lower grade; 
    a localhost app isn't really "viable" in the sense that you can't put it in the hands of customers.   
