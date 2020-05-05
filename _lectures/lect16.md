@@ -174,7 +174,7 @@ A bit more detail on each of these:
     a new student to be created.   We can test a `GET` request directly in our browser.
     
     For a `POST` request, it's more
-    complicated; we have to use a tool such as `curl` or Postman, and set up the `POST` request with the exact format
+    complicated; we have to use a tool such as `curl` or [Postman](https://ucsb-cs48.github.io/topics/postman/), and set up the `POST` request with the exact format
     of the required headers and request body.
 
 #  Other topics that there may be questions about
