@@ -207,13 +207,13 @@ A bit more detail on each of these:
     
 # useSWR: communication between front and back end
 
-The way in which the front end communicates with the backend is through something called `useSWR`.
+The way in which the front end communicates with the backend is through something called `useSWR`. Their documentation can be found [here](https://github.com/zeit/swr). **Everything from this point on is just how we use `useSWR` in our application.**
 
 As an example, here is the code for adding, listing and deleting students in the file [`pages/admin/students.js`](
 https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L76) from the [`project-idea-reviewer-nextjs`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/):
 
 
-First, there is some code that initializes a value `ssr.props.initialData` with a list of the students. This is done on the server side before the page is rendered.
+First, there is some code at the top of the file in `getServerSideProps` that initializes a value `ssr.props.initialData` with a list of the students. This is done on the server side before the page is rendered.
 
 ```
 export const getServerSideProps = async ({ req, res }) => {
@@ -233,7 +233,22 @@ That `initialData` value is then used later in the definition of `export default
  const { data, mutate } = useSWR("/api/students", { initialData });
 ```
 
-This sets up `useSWR` to communicate with the code at `/api/students`, and gives us a `data` and `mutate` variable that we can use to do various operations.
+This sets up `useSWR` to associate `initialData` with the key `/api/students`, and gives us a `data` and `mutate` variable that we can use to do various operations. The key acts as both a key for using this data throughout your react app via `useSWR` AND as the url endpoint for retrieving/revalidating said data. If you want to see more about how `useSWR` is configured, take a look at the `SWRConfig` tag [here](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/_app.js#L10).
+
+The `data` variable represents the state that we're asking useSWR to remember for us, which would be the initial list of students. The `mutate` variable is the function you should use if you want to update the state recorded under the key (in this case, the key is `/api/students`). An example of this might be adding a student to the list, which we could do like so:
+
+```javascript
+let newStudent = {
+            email: "cguacho@ucsb.edu",
+            section: "XXXX",
+            fname: "Chris",
+            lname: "Gaucho",
+            permNum: "9999999",
+          }
+mutate([...data, newStduent])
+```
+
+Note: if you call `mutate([])`, it'll actually revalidate the data at the url provided as the key. So it'll retrieve data from `/api/students` and update the stored data. This will cause your component to re-render to display the new data.
 
 The way in which those operations are used is illustrated in various functions:
 
@@ -245,16 +260,12 @@ The way in which those operations are used is illustrated in various functions:
 {:.table .table-sm .table-striped .table-bordered}
 
 
-More on `useSWR`:
-* <https://dev.to/dance2die/useswr-react-hooks-for-remote-data-fetching-1nlo>
 
 #  Other topics that there may be questions about
 
-## Passing data within/among React components. 
- 
-If you need to get data out of one react component (e.g. a form field) into another react component (e.g. something that is going to use that data to display something), consider putting the shared state (e.g. the field value) into a React component that is a *common ancestor* of the two components that need to share data.
+* Passing data within/among React components. 
 
-* Connecting to MongoDB
+* [Connecting to MongoDB](https://ucsb-cs48.github.io/topics/mongodb_nextjs_setup/)
 
 * Making data requests to MongoDB
 
