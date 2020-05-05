@@ -70,9 +70,8 @@ These videos may help
 * 5 minute simple overview of request/response <https://youtu.be/DrI2lUXL1no>
   - Just very basics of request/reponse
 * 40 minute deeper dive <https://www.youtube.com/watch?v=iYM2zFP3Zn0>.
-  - Cover methods GET/POST/PUT/DELETE
-  - HTTP Header Fields
-  - HTTP Status Codes
+  - Covers methods GET/POST/PUT/DELETE
+  - HTTP Header Fields and Status Codes
   - Using "Network" Tab in web browser dev tools to look at Request/Response
   - Exploring request/respose with Express and Postman
     - This uses Express directly, which is a good way to explore and understand how request/response work. 
@@ -93,22 +92,75 @@ More information
 * 6 minutes: HTTP Methods in general, including idempotency <https://www.youtube.com/watch?v=guYMSP7JVTA>  
 
 
-#  Various Topics (rough notes)
+# Front End vs. Back End (nextjs only)
+
+* The "front end" code runs in your browser; the React components are front end code.
+  - `components/` directory
+  - `pages/` directory (except `pages/api/`)
+* The "back end" code runs on the web server (e.g. on Heroku).
+  - This code is under `pages/api`
+ 
+The rest of the code in your app (e.g. functions under `utils/`) might be front end code, or back end code, depending on
+where it's called from.
+
+**It is important to know where you are**
+
+* You can only talk to the database **directly** from backend code, i.e. the code under `pages/api`
+* If you are in front end code (i.e. the code for a React component) and you *need data*, you need to 
+  fetch it from the backend by doing a call to a `pages/api` endpoint.
+
+That means that, typically, setting up a page in a NextJS app can involve three steps: 
+
+1.  You *always* create a page under `pages/` that serves up your HTML.
+2.  You *often* create reusable React components under `components/` to factor out code from files under `pages/`
+3.  You *usually* need to create routes under `pages/api` for backend code 
+    that sits between the React components on the front end and the database. 
+
+A bit more detail on each of these:
+
+1.  You *always* create a page under `pages/` that serves up your HTML.
+
+    * Simple Example: [project-idea-reviewer-nextjs, `pages/index.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/index.js#L1).  This code renders the page at `/` in your app.     
+    * More Complex Example: [project-idea-reviewer-nextjs, `pages/ideas.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L127).  This code renders the page at `/ideas` in your app.
+    
+    Requests made at the `/` and `/ideas` endpoints are served up by the backend of your server, but with one exception
+    noted below, the JavaScript code in these files runs on the client, i.e the "front end", after the page is loaded
+    into the app.
+    
+    The one exception in NextJS is code inside the function `getServerSideProps` ([see example](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L13).
+    
+    
+2.  Often: Creating React components under `components/` 
+
+    * Example: [project-idea-reviewer-nextjs `components/AppNavbar.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/components/AppNavbar.js#L20)
+
+    Factoring out code from the files under `pages` into reusable components is optional, but highly recommended.
+    
+    You should consider creating a component when:
+    * The same kind of thing appears multiple times on a page, or on multiple pages
+    * When it just makes the page easier to understand if you can break it into smaller, understandable chunks, even
+      if each of those is only used in one place on one page in the app.
+
+3.  Usually: Creating a route under `pages/api` for the front end code to "talk to" to do database operations.
+
+    * Example: [project-idea-reviewer-nextjs `/pages/api/students/index.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/api/students/index.js#L87)
+
+    In the example above, a `GET` request returns a list of all of the students (as JSON) while a `POST` request allows
+    a new student to be created.
+   
+    The `/api/students` URL is in your webapp and is served
+    from the the same server as your front end pages, but instead of sending HTML/JS in the response, 
+    it sends data formatted in JSON.    In addition in a `POST`, data is sent to the server, typically also formatted
+    in JSON.
+    
+    When testing `/api` routes in your app, it can be helpful to use a tool such as `curl` or Postman.
 
 
-* Discuss *front-end* vs. *backend*
-  - End point vs. API end points
-  - Frontend: loading web pages you see in your browser.  You can test by just putting URL in the browser and seeing what comes up.
-  - Backend: these are web request/response transactions that are hidden away: the browser talks to the server and exchanges JSON messages.  You can test those using `curl` or Postman (or dev tools of the browser) but you usually can't do it just by typing URLs into your web browser.
-
-* Discuss React `pages` vs. Node `pages/api`
+#  Other topics that there may be questions about
 
 * Passing data within/among React components. 
- 
-# Setting up MongoDB
 
-How do you connect to MongoDB?
+* Connecting to MongoDB
 
-Tutorial from Bryan...   specifically in the context of React / Next.js
-
+* Making data requests to MongoDB
 
