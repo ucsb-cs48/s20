@@ -250,7 +250,9 @@ More on `useSWR`:
 
 #  Other topics that there may be questions about
 
-* Passing data within/among React components. 
+## Passing data within/among React components. 
+ 
+If you need to get data out of one react component (e.g. a form field) into another react component (e.g. something that is going to use that data to display something), consider putting the shared state (e.g. the field value) into a React component that is a *common ancestor* of the two components that need to share data.
 
 * Connecting to MongoDB
 
