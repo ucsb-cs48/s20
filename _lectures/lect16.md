@@ -54,6 +54,38 @@ So, make every effort to have your production version ready to go with a stable 
 
 # Various Topics
 
+## HTTP requests and responses
+
+You will see the idea of **request/response**  all over web programming.
+
+In a NextJS app, many functions found in the code under `pages/api` take parameters `(req, res)`, 
+which stand for request and response.  This code from [demo-nextjs-app/pages/api/dog.js, line 3](https://github.com/ucsb-cs48-s20/demo-nextjs-app/blob/5c220b0c08ef3b0a45e8dad87b66798fe6fb874c/pages/api/dog.js#L3) is an example:
+```
+export default async function (req, res) {
+```
+
+In a Spring Boot app, the request and respose objects are often abstracted away, but they are still present, and it's helpful to understand their role.
+
+These videos may help
+* 5 minute simple overview of request/response <https://youtu.be/DrI2lUXL1no>
+  - Just very basics of request/reponse
+* 40 minute deeper dive <https://www.youtube.com/watch?v=iYM2zFP3Zn0>.
+  - Cover methods GET/POST/PUT/DELETE
+  - HTTP Header Fields
+  - HTTP Status Codes
+  - Using "Network" Tab in web browser dev tools to look at Request/Response
+  - Exploring request/respose with Express and Postman
+    - This uses Express directly, which is a good way to explore and understand how request/response work. 
+    - NextJS uses a similar *but different* approach to structuring this code, so be aware of that.
+    - But the *concepts* and the way you work with Postman is the same.
+
+
+
+
+
+
+
+#  Various Topics (rough notes)
 * Discuss how HTTP works
   - Request / Response
   - GET/POST and idempotency
