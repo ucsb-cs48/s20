@@ -131,8 +131,11 @@ A bit more detail on each of these:
 
 1.  You *always* create a page under `pages/` that serves up your HTML.
 
-    * Simple Example: [project-idea-reviewer-nextjs, `pages/index.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/index.js#L1).  This code renders the page at `/` in your app.     
-    * More Complex Example: [project-idea-reviewer-nextjs, `pages/ideas.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L127).  This code renders the page at `/ideas` in your app.
+    |         | Project | File | URL |
+    |---------|------|------|--------|
+    | Simple Example | `project-idea-reviewer-nextjs` | `pages/index.js`(https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/index.js#L1). | [`/`](https://project-idea-reviewer-nextjs.herokuapp.com/) |
+    | More Complex Example | `project-idea-reviewer-nextjs` | `pages/ideas.js`(https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L127). | [`/ideas`](https://project-idea-reviewer-nextjs.herokuapp.com/ideas) |
+    
     
     Requests made at the `/` and `/ideas` endpoints are served up by the backend of your server, but with one exception
     noted below, the JavaScript code in these files runs on the client, i.e the "front end", after the page is loaded
@@ -143,7 +146,10 @@ A bit more detail on each of these:
     
 2.  Often: Creating React components under `components/` 
 
-    * Example: [project-idea-reviewer-nextjs `components/AppNavbar.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/components/AppNavbar.js#L20)
+
+    |         | Project | File | 
+    |---------|------|------|
+    | `AppNavbar` | project-idea-reviewer-nextjs | [`components/AppNavbar.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/components/AppNavbar.js#L20) |
 
     Factoring out code from the files under `pages` into reusable components is optional, but highly recommended.
     
@@ -154,18 +160,22 @@ A bit more detail on each of these:
 
 3.  Usually: Creating a route under `pages/api` for the front end code to "talk to" to do database operations.
 
-    * Example: [project-idea-reviewer-nextjs `/pages/api/students/index.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/api/students/index.js#L87)
 
-    In the example above, a `GET` request returns a list of all of the students (as JSON) while a `POST` request allows
-    a new student to be created.
-   
+    |         | Project | File | URL |
+    |---------|------|------|--------|
+    | Example | project-idea-reviewer-nextjs | [`/pages/api/students/index.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/api/students/index.js#L87) | [`/api/students`](https://project-idea-reviewer-nextjs.herokuapp.com/api/students) |
+
     The `/api/students` URL is in your webapp and is served
     from the the same server as your front end pages, but instead of sending HTML/JS in the response, 
     it sends data formatted in JSON.    In addition in a `POST`, data is sent to the server, typically also formatted
     in JSON.
-    
-    When testing `/api` routes in your app, it can be helpful to use a tool such as `curl` or Postman.
 
+    In the example above, a `GET` request returns a list of all of the students (as JSON) while a `POST` request allows
+    a new student to be created.   We can test a `GET` request directly in our browser.
+    
+    For a `POST` request, it's more
+    complicated; we have to use a tool such as `curl` or Postman, and set up the `POST` request with the exact format
+    of the required headers and request body.
 
 #  Other topics that there may be questions about
 
