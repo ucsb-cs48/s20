@@ -242,6 +242,8 @@ The way in which those operations are used is illustrated in various functions:
 | [`addStudent`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L85) | |
 | [`deleteStudent`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L134) | Uses [`pages/api/students/[studentId].js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/api/students/%5BstudentId%5D.js#L35) which uses the `DELETE` method instead of `GET` or `POST` |
 | [listing students](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L240) | done by passing `data` into the React component |
+{:.table .table-sm .table-striped .table-bordered}
+
 
 
 #  Other topics that there may be questions about
