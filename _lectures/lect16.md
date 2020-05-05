@@ -5,6 +5,15 @@ num: lect16
 ready: false
 ---
 
+
+# Planning for your demo
+
+If you choose to make a YouTube video:
+* Instructions for Zoom / YouTube <https://youtu.be/k0Je8ASh4jo>
+* Where to submit link (lab02): <https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=3919993>
+
+# Various Topics
+
 * Discuss how HTTP works
   - Request / Response
   - GET/POST and idempotency
