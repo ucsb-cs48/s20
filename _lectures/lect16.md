@@ -135,7 +135,8 @@ A bit more detail on each of these:
     |---------|------|------|--------|
     | Simple Example | `project-idea-reviewer-nextjs` | `pages/index.js`(https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/index.js#L1). | [`/`](https://project-idea-reviewer-nextjs.herokuapp.com/) |
     | More Complex Example | `project-idea-reviewer-nextjs` | `pages/ideas.js`(https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/ideas.js#L127). | [`/ideas`](https://project-idea-reviewer-nextjs.herokuapp.com/ideas) |
-    
+    {:.table .table-sm .table-striped .table-bordered}
+
     
     Requests made at the `/` and `/ideas` endpoints are served up by the backend of your server, but with one exception
     noted below, the JavaScript code in these files runs on the client, i.e the "front end", after the page is loaded
@@ -150,6 +151,7 @@ A bit more detail on each of these:
     |         | Project | File | 
     |---------|------|------|
     | `AppNavbar` | project-idea-reviewer-nextjs | [`components/AppNavbar.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/components/AppNavbar.js#L20) |
+    {:.table .table-sm .table-striped .table-bordered}
 
     Factoring out code from the files under `pages` into reusable components is optional, but highly recommended.
     
@@ -164,6 +166,7 @@ A bit more detail on each of these:
     |         | Project | File | URL |
     |---------|------|------|--------|
     | Example | project-idea-reviewer-nextjs | [`/pages/api/students/index.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/api/students/index.js#L87) | [`/api/students`](https://project-idea-reviewer-nextjs.herokuapp.com/api/students) |
+    {:.table .table-sm .table-striped .table-bordered}
 
     The `/api/students` URL is in your webapp and is served
     from the the same server as your front end pages, but instead of sending HTML/JS in the response, 
