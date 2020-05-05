@@ -245,6 +245,8 @@ The way in which those operations are used is illustrated in various functions:
 {:.table .table-sm .table-striped .table-bordered}
 
 
+More on `useSWR`:
+* <https://dev.to/dance2die/useswr-react-hooks-for-remote-data-fetching-1nlo>
 
 #  Other topics that there may be questions about
 
