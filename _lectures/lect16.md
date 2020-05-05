@@ -7,8 +7,19 @@ ready: false
 
 # Today
 
+Before Breakouts:
+
 * More details about demos
-* 
+* Some notes on various web programming topics
+
+In Breakouts:
+
+* Standup
+* Consider doing a "rehearsal" of the demo
+* Is `prod` ready for your demo?
+  * If not, what needs to happen so that it's ready for the demo?
+  * Ask for help from staff if needed
+* Then, work as you see fit.
 
 # Planning for your demo
 
