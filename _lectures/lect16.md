@@ -272,5 +272,5 @@ If you need to get data out of one react component (e.g. a form field) into anot
 
 ## [Connecting to MongoDB](https://ucsb-cs48.github.io/topics/mongodb_nextjs_setup/)
 
-## Making data requests to MongoDB
+## [Making data requests to MongoDB](https://ucsb-cs48.github.io/topics/mongodb_nextjs_guide/)
 
