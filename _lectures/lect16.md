@@ -225,7 +225,7 @@ export const getServerSideProps = async ({ req, res }) => {
 };
 ```
 
-That `initialData` value is then used later in the definition of `export default function ManageStudentsPage` (which is the "main" function for `pages/admin/students.js).
+That `initialData` value is then used later in the definition of `export default function ManageStudentsPage` (which is the "main" function for [`pages/admin/students.js`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L76)).
 
 ```
  const { user, initialData } = props;
