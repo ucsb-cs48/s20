@@ -207,7 +207,11 @@ A bit more detail on each of these:
     
 # useSWR: communication between front and back end
 
-The way in which the front end communicates with the backend is through something called `useSWR`. Their documentation can be found [here](https://github.com/zeit/swr). **Everything from this point on is just how we use `useSWR` in our application.**
+The way in which the front end communicates with the backend in the sample app [`project-idea-reviewer-nextjs`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/) is through something called `useSWR`. 
+
+The documentation for SWR can be found at <https://github.com/zeit/swr>. 
+
+**Everything from this point on is just how we use `useSWR` in [`project-idea-reviewer-nextjs`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/) **
 
 As an example, here is the code for adding, listing and deleting students in the file [`pages/admin/students.js`](
 https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/blob/cc72ea42c082a878f776208b89cb414dd694fa8e/pages/admin/students.js#L76) from the [`project-idea-reviewer-nextjs`](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs/):
