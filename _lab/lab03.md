@@ -4,13 +4,11 @@ num: lab03
 ready: true
 desc: "First Team Retrospective"
 assigned: 2020-04-20 12:00
-due: 2029-04-20 16:00
-github_org: "ucsb-cs48-w19"
+due: 2020-04-20 16:00
+github_org: "ucsb-cs48-w20"
 ---
 
-<div style="display:none">
-https://ucsb-cs48.github.io/w19/lab/lab04/
-</div>
+
 
 <style>
 div.grade { margin: 2em; padding: 1em; border: 2px solid #0c0; background-color: #efe; }   
