@@ -22,7 +22,7 @@ Subject to change, but this is the preliminary plan.
 |------|---------------|----------------------|-----------|----------------|--------|
 |  7   | 5/11 Retro 2 | 5/12 Sprint Planning |       | 5/14          | |
 |  8   | 5/18         | 5/19                 |       | 5/21  Demos   | |
-|  9   | 5/25 **No class** (Memorial Day) | 5/26  Retro 3 / Sprint Planning  |  | 5/28     | |
+|  9   | **No class** (Memorial Day) | 5/26  Retro 3 / Sprint Planning  |  | 5/28     | |
 |  10   | 6/01       | 6/02           |        | 6/05 | |
-| Finals | 6/08 | 6/09 | 6/10 [5pm final presentations](https://ucsb-cs48.github.io/s20/exam/5pm_section/) | 6/11 [3:30pm final presentations](https://ucsb-cs48.github.io/s20/exam/330pm_section/) | |
+| Finals |  |  | 6/10 [5pm final presentations](https://ucsb-cs48.github.io/s20/exam/5pm_section/) | 6/11 [3:30pm final presentations](https://ucsb-cs48.github.io/s20/exam/330pm_section/) | |
 {:.table .table-sm .table-striped .table-bordered}
