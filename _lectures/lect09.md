@@ -1,6 +1,6 @@
 ---
 desc: "Monday Section: First Retrospective"
-lecture_date: 2020-04-13
+lecture_date: 2020-04-20
 num: lect09
 ready: true
 ---
