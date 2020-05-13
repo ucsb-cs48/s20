@@ -62,7 +62,7 @@ This assignment has five parts:
     likely that if there are any ambiguities, errors, or omissions in the instructions, you'll find them before the video
     is finished.
     
-*   **Part Three: In pairs or trios, follow another team's instructions **
+*   **Part Three: In pairs or trios, follow another team's instructions**
 
     As a team, you are now going to divide up the three other teams apps from your discussion section among the 
     individuals on your team, and working as individuals or in pairs, you'll try following the other teams 
@@ -92,7 +92,7 @@ This assignment has five parts:
     If you run into difficulties, join that team's channel and ask questions.   Do your best to work with the team
     to help them refine their instructions, just as your classmates help you refine yours.
  
-*   **Part Four: Provide feedback **
+*   **Part Four: Provide feedback**
 
     Each of the pairs or individuals should now prepare a brief writeup with  feedback on the written instructions and
     the video.   
@@ -101,7 +101,7 @@ This assignment has five parts:
     * Where did you run into difficulties?
     * What suggestions did you make to 
 
-*   **Part Five: Refine your own instructions **
+*   **Part Five: Refine your own instructions**
 
     Based on the feedback you receive both during step three, and from step four, refine your own instructions so that
     when the course staff tries to follow your instructions, they are very unlikely to run into any problems.
