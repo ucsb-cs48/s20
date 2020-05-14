@@ -39,6 +39,8 @@ This PR: <https://github.com/ucsb-cs48-s20/cs48-s20-nextjs-tutorial/pull/8>
 
 # Introduction to Testing
 
+See this article in our resources: [Testing](https://ucsb-cs48.github.io/topics/testing/)
+
 * Unit testing  
   
   Plain old `jest` testing for plain old JavaScript.
