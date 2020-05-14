@@ -22,7 +22,7 @@ Subject to change, but this is the preliminary plan.
 |  7   | 5/11 Retro 2 | 5/12 Sprint Planning |       | 5/14:  Storybook      | |
 |  8   | 5/18 Assign lab05 (ops) | 5/19  Assign Storybook and Testing (lab06, lab07)  |       | 5/21  Demos   | |
 |  9   | **No class** (Memorial Day) | 5/26  Retro 3 / Sprint Planning / lab05 due |  | 5/28  Start lab07 (Ops review)   | |
-|  10   | 6/01  Ops review due (lab07)  | 6/02           |        | 6/05 | |
+|  10   | 6/01  Ops review due (lab07)  | 6/02           |        | 6/04 | |
 | Finals |  |  | 6/10 [5pm final presentations](https://ucsb-cs48.github.io/s20/exam/5pm_section/) | 6/11 [3:30pm final presentations](https://ucsb-cs48.github.io/s20/exam/330pm_section/) | |
 {:.table .table-sm .table-striped .table-bordered}
 
