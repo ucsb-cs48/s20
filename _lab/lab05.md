@@ -41,6 +41,8 @@ own team.  That is:
 * You should not share any OAuth or Auth0 credentials
 * You should not share any 3rd party API credentials (e.g. Firebase, Spotify, Google, etc.)
     
+NOTE: If any of the 3rd party services require signing up with a credit card, please speak to the instructor.    
+    
 Instead of sharing the credentials, you should share *instructions for obtaining those credentials*,
 and instructions for configuring those credentials for your application.
 
