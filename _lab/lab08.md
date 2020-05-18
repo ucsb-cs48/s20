@@ -1,9 +1,9 @@
 ---
 layout: lab
 num: lab08
-ready: false
+ready: true
 desc: "Ops Review"
-assigned: 2020-05-27 08:00
+assigned: 2020-05-26 03:30
 due: 2020-06-01 11:30
 github_org: "ucsb-cs48-s20"
 ---
