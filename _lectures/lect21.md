@@ -6,6 +6,16 @@ ready: false
 lab05: https://ucsb-cs48.github.io/s20/lab/lab05/
 ---
 
+
+Today:
+* Assign lab05 / lab08
+* Discuss lab06 / lab07
+* Breakout Groups: 
+  - Standup
+  - Add lab05 work (Deploy Instructions) as an issue on Kanban board, and assign it.
+  - Work as team sees fit.
+
+
 | Week | Monday        | Tuesday              | Wednesday |  Thursday      | Friday |
 |------|---------------|----------------------|-----------|----------------|--------|
 |  7   | 5/11 Retro 2 | 5/12 Sprint Planning |       | 5/14:  Storybook      | |
