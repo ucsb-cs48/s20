@@ -15,6 +15,26 @@ Today:
   - Add lab05 work (Deploy Instructions) as an issue on Kanban board, and assign it.
   - Work as team sees fit.
 
+# MAKE GOOD USE OF YOUR TIME TOGETHER
+
+Real world teams have 40 hours a week during which they can meet/work.
+
+You all have 200 minutes each week.  That's all.  3⅓ hours.  91% less time.
+
+It's great to see: 
+* folks sharing their screen, discussing things energetically.
+* folks demoing features to one another
+* folks reviewing PRs
+
+It is concerning to see:
+* No one sharing their screen
+* No one talking
+
+Some things to keep in mind if you find you are at a loss:
+* If you need to work in pairs/trios, we have extra break out rooms we can put you in.
+* It you have PRs that haven't been code reviewed, consider reviewing them as a team
+  - review the code
+  - review the features (i.e. run the code on QA)
 
 | Week | Monday        | Tuesday              | Wednesday |  Thursday      | Friday |
 |------|---------------|----------------------|-----------|----------------|--------|
