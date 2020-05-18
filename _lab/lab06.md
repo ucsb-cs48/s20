@@ -38,8 +38,21 @@ This includes:
 
 # Your job in lab06
 
-Minimally (for 85% credit):
+Minimally (for 70% credit):
 
 * Add Storybook to your project
-* Add at least three React components to your Storybook, including at least one with Knobs
+* Add at least one React components to your Storybook, including at least one with Knobs
 
+Better (for 85% credit):
+
+* Add at least two more (total of three) React components to your Storybook, including at least one with Knobs
+
+Best (for 100% credit):
+
+* Add all existing React components in your project to Storybook, with or without multiple stories, and with or
+  without knobs as appropriate.
+* If you have only three React components in your Storybook, consider refactoring some additional UI elements out of your
+  existing pages, creating React components for them.
+* Ideally, there should be at least five components: BUT, don't create components "just for the sake of the grade".  If you
+  honestly don't see opportunities to create more than three components, consult with the staff, and if we agree, we can give
+  you a waiver.  (There may be some teams where this is true, depending on your project.)
