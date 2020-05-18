@@ -1,5 +1,5 @@
 ---
-desc: "Monday Section: "
+desc: "Monday Section:  Assign lab05 (deploy instructions)"
 lecture_date: 2020-05-18
 num: lect21
 ready: false
