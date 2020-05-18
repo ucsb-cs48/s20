@@ -42,8 +42,15 @@ Minimally (for 70% credit):
 
 * Add Storybook to your project
 * Add at least one React components to your Storybook, including at least one with Knobs
+* Your storybook should be able to run on localhost with `npm run storybook`
 
-Better (for 85% credit):
+Better: For 80% credit: 
+
+* Also, deploy your storybook to the repo that has the same name as your repo, 
+  but with `-storybook` appended, using GitHub pages.  Instructions are contained within <https://ucsb-cs48.github.io/jstopics/react_storybook/>.  The repos should already exist.
+
+
+Even better (for 90% credit):
 
 * Add at least two more (total of three) React components to your Storybook, including at least one with Knobs
 
