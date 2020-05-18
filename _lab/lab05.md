@@ -55,8 +55,27 @@ There should be a link to `./docs/DEPLOY.md` from your main `README.md` file of 
 * [Deployment Instructions](./docs/DEPLOY.md)
 ```
 
+# Part Two: Deployment Video (OPTIONAL)
 
-# Part Two: Deployment Video
+<div class="card" style="width: 18rem;">
+<div class="card-body">
+<h5 class="card-title">Note: This is optional</h5>
+<h6 class="card-subtitle mb-2 text-muted">As such, I expect most teams may opt-out of doing it.</h6>
+<p class="card-text">
+So if it's optional, why am I even leaving this step in the lab?
+</p>
+<p class="card-text">
+I've left this in, because the next time I teach the course, I definitely want to make it required; and because if you
+read though it, I think you'll see how making this as a video would kind of force you to make your written instructions
+more clear and foolproof.   You'd definitely find any problems with the written instructions as you go through 
+the steps to make the video.
+</p>
+<p class="card-text">
+(For teams that DO do it, however, it will be taken into account in your final team evaluation as a plus.   Don't ask me how much: I don't have those kinds of details worked out yet.  I'm still struggling just to stay one step ahead of all of the changes we've made in the course to adapt it to this format.)
+</p>
+</div>
+</div>
+
 
 Working from your written deployment instructions, someone on your team should make a video where you follow the written deployment instructions yourselves,
 step by step, and show what the deployment looks like.   
