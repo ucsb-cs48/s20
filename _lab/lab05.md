@@ -8,7 +8,6 @@ due: 2020-05-26 15:30
 github_org: "ucsb-cs48-s20"
 ---
 
-NOTE: THIS IS STILL A WORK IN PROGRESS... Please return to this later
 
 # Ops Video / Instructions
 
@@ -28,9 +27,11 @@ This assignment is divided across two labs, this one, and [lab08](https://ucsb-c
 
 # Part One: Written Deployment Instructions
 
-Someone on your team should pprepare a set of instructions with all of the steps necessary to start with nothing but "read only" access to your repo, and end with a running instance of your app on Heroku.  
+Someone on your team should prepare a set of instructions with all of the steps necessary to start with nothing but "read only" access to your repo, and end with a running instance of your app on Heroku.  
 
-While this is a team grade, it is likely that you'll assign one or more people from your team to focus on this, while other members of your team are working on fixing bugs or adding new features.  I suggest you make this task an "issue" and track it on your Kanban board along with your other issues.  Ideally, whoever is working on these instructions is not *also* juggling working on a coding issue at the same time.
+While this is a team grade, it is likely that you'll assign one or more people from your team to focus on this, while other members of your team are working on fixing bugs or adding new features.  
+
+So, please make `Deploy Instructions (lab05)` an "issue" and track it on your Kanban board along with your other issues.  Ideally, whoever is working on these instructions is not *also* juggling working on a coding issue at the same time, so this is the only issue to which they are assigned while they are working on it.
 
 ## Share instructions, NOT credentials
 
@@ -95,3 +96,6 @@ should be different from the person that wrote the instructions.  That makes it 
 likely that if there are any ambiguities, errors, or omissions in the instructions, you'll find them before the video
 is finished.  But, this is a recommendation, not a requirement.
     
+# Grading:
+
+Team Grade: 100 points for successfully completing the instructions.
