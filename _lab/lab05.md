@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: false
+ready: true
 desc: "Ops Instructions/Video/Review"
 assigned: 2020-05-18 12:00
 due: 2020-05-26 15:00
