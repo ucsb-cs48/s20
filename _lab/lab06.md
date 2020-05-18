@@ -23,3 +23,5 @@ Here are some example storybooks from CS48 sample code:
 |-----------|------------|
 | [project-idea-reviewer-nextjs-storybook](https://ucsb-cs48-s20.github.io/project-idea-reviewer-nextjs-storybook) | [project-idea-reviewer-nextjs](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs) |
 | <> | <> |
+{:.table .table-sm .table-striped .table-bordered}
+
