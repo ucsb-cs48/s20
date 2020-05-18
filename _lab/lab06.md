@@ -22,6 +22,9 @@ Here are some example storybooks from CS48 sample code:
 | Storybook | Repository | 
 |-----------|------------|
 | [project-idea-reviewer-nextjs-storybook](https://ucsb-cs48-s20.github.io/project-idea-reviewer-nextjs-storybook) | [project-idea-reviewer-nextjs](https://github.com/ucsb-cs48-s20/project-idea-reviewer-nextjs) |
-| <> | <> |
+| [cs48-s20-nextjs-tutorial-storybook](https://ucsb-cs48-s20.github.io/cs48-s20-nextjs-tutorial-storybook) | [cs48-s20-nextjs-tutorial](https://github.com/ucsb-cs48-s20/cs48-s20-nextjs-tutorial) |
+| []() | []() |
+| []() | []() |
+
 {:.table .table-sm .table-striped .table-bordered}
 
