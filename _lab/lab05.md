@@ -57,7 +57,7 @@ There should be a link to `./docs/DEPLOY.md` from your main `README.md` file of 
 
 # Part Two: Deployment Video (OPTIONAL)
 
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 80%; margin-left:auto; margin-right:auto;">
 <div class="card-body">
 <h5 class="card-title">Note: This is optional</h5>
 <h6 class="card-subtitle mb-2 text-muted">As such, I expect most teams may opt-out of doing it.</h6>
