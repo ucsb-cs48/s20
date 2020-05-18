@@ -4,7 +4,7 @@ num: lab05
 ready: false
 desc: "Ops Instructions/Video/Review"
 assigned: 2020-05-18 12:00
-due: 2020-05-26 15:30
+due: 2020-05-26 15:00
 github_org: "ucsb-cs48-s20"
 ---
 
