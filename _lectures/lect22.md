@@ -3,6 +3,11 @@ desc: "Tuesday Lecture: "
 lecture_date: 2020-05-19
 num: lect22
 ready: false
+lab05: ../../lab/lab05
+lab06: ../../lab/lab06
+lab07: ../../lab/lab07
+lab08: ../../lab/lab08
+lab09: ../../lab/lab09
 ---
 
 Today:
