@@ -13,7 +13,7 @@ github_org: "ucsb-cs48-s20"
 This lab deals with React Storybook, a tool for cataloging, documenting and testing React components.
 
 For teams that are not using React, alternative lab06 instructions are provided at the links below:
-* For `s0-t4-new-city`, follow [lab06-sb](https://ucsb-cs48.github.io/s20/lab/lab06-sb/) (Linting for Java)
+* For `s0-t4-new-city`, follow [lab06_sb](https://ucsb-cs48.github.io/s20/lab/lab06_sb/) (Linting for Java)
 
 # Example Storybooks
 
