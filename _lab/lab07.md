@@ -50,5 +50,10 @@ you do a PR.
 
 # Step 2: Cypress Testing  (50%)
 
-TODO
+TODO.   Refer to <https://ucsb-cs48.github.io/jstopics/testing_cypress/>
+
+Big picture: students should
+* Configure project for Cypress
+* Add at least one set of cypress tests (3-5 tests) for a feature.
+* Exact scope is to be negotiated with the project mentor.
 
