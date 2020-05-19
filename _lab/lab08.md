@@ -6,7 +6,7 @@ layout: lab
 num: lab08
 ready: true
 github_org: ucsb-cs48-s20
-gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=tbd
+gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=4016514&forceview=1
 ---
 
 lab08 is a team-based grade for the MVP demo.
