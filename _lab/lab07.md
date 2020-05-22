@@ -50,7 +50,7 @@ you do a PR.
 
 # Step 2: Cypress Testing  (50%)
 
-TODO.   Refer to <https://ucsb-cs48.github.io/jstopics/testing_cypress/>
+Refer to <https://ucsb-cs48.github.io/jstopics/testing_cypress/>
 
 Big picture: students should
 * Configure project for Cypress
