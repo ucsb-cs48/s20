@@ -15,4 +15,6 @@ To earn the points for this lab, the project should have:
 * at least one example of a plain old JUnit test for some plain old Java code
 * at least one example of either an integration test, or an end-to-end (Selenium) test for a product feature.
 
-Instructions are coming soon.
+This article has a good introduction to end-to-end testing for Spring Boot Projects:
+* <https://ucsb-cs48.github.io/topics/testing_end_to_end/>
+
