@@ -4,7 +4,7 @@ num: lab07
 ready: false
 desc: "Testing for Next.js Applications"
 assigned: 2020-05-19 15:30
-due: 2020-06-01 12:00
+due: 2020-06-02 12:00
 github_org: "ucsb-cs48-s20"
 ---
 
