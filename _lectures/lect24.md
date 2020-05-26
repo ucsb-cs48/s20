@@ -9,8 +9,10 @@ lab09: https://ucsb-cs48.github.io/s20/lab/lab09/
 new: '<span class="badge badge-warning">New Due Date</span>'
 ---
 
+# Announcements
 
-
+- New due dates for lab06 and lab07 to give you some extra time if you need it
+- Column at <https://ucsb-cs48.github.io/s20/teams_page/> for storybooks; see how yours compares to others'
 
 # TODAY
 * Retro
