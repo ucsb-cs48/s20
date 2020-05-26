@@ -1,8 +1,8 @@
 ---
-desc: "Tuesday Lecture: "
+desc: "Tuesday Lecture: 3rd Retro, Final Sprint Planning"
 lecture_date: 2020-05-26
 num: lect24
-ready: false
+ready: true
 lab06: https://ucsb-cs48.github.io/s20/lab/lab06/
 lab07: https://ucsb-cs48.github.io/s20/lab/lab07/
 lab09: https://ucsb-cs48.github.io/s20/lab/lab09/
