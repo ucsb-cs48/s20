@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab06
-ready: false
+ready: true
 desc: "Storybook "
 assigned: 2020-05-18 12:00
-due: 2020-05-26 15:30
+due: 2020-05-28 15:30
 github_org: "ucsb-cs48-s20"
 ---
 
