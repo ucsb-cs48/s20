@@ -18,3 +18,5 @@ To earn the points for this lab, the project should have:
 This article has a good introduction to end-to-end testing for Spring Boot Projects:
 * <https://ucsb-cs48.github.io/topics/testing_end_to_end/>
 
+Please be in close contact with your mentor, and if needed, your TA and instructor; since only one team is completing this version of the lab, we are relying on frequent contact between the team and the course staff rather than detailed instrutions.
+Seek clarification on what you don't understand, and guidance on how to proceed.
