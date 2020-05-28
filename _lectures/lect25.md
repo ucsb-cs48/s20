@@ -1,5 +1,5 @@
 ---
-desc: "Thursday Lecture: "
+desc: "Thursday Lecture: Time for your team!"
 lecture_date: 2020-05-28
 num: lect25
 ready: true
