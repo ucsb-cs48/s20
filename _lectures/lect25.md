@@ -3,12 +3,16 @@ desc: "Thursday Lecture: "
 lecture_date: 2020-05-28
 num: lect25
 ready: true
+lab05: https://ucsb-cs48.github.io/s20/lab/lab05/
+lab06: https://ucsb-cs48.github.io/s20/lab/lab06/
+lab07: https://ucsb-cs48.github.io/s20/lab/lab07/
+lab09: https://ucsb-cs48.github.io/s20/lab/lab09/
 ---
 
 
 # Announcements
 
-- Links on Gauchospace for lab05, lab06, lab07, lab09
+- Links on Gauchospace for [lab05]({{page.lab05}}), [lab06]({{page.lab06}}), [lab07]({{page.lab07}}), [lab09]({{page.lab09}})
 
 # TODAY
 * Standup
