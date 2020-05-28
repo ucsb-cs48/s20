@@ -8,7 +8,7 @@ ready: true
 
 # Announcements
 
-- Links on Gauchospace for lab05,6,7,9
+- Links on Gauchospace for lab05, lab06, lab07, lab09
 
 # TODAY
 * Standup
