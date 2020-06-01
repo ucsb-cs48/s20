@@ -97,3 +97,28 @@ important ways, and the nature of their contributions was different.  Perhaps Be
 If indeed, some team members contributed more than others, this is an opportunity to have an honest conversation 
 about that, and as a team, decide how to tell that story.
 
+
+# Is the `Contributors` graph accurate?
+
+Note that there can be big disparities between the contributors graph and ground truth.
+
+One source is "misattributed commits".  As an example, see this page:
+
+* <https://github.com/ucsb-cs48-s20/project-idea-reviewer/commits/master?after=e37a193735918fa2f25c9af93ad1e129caec2946+69>
+
+Note that:
+* *some* of the commits that Phill Conrad did on this page are attributed to his GitHub account, `pconrad`, and have his avatar (the icon/photo) next to his commit.
+* but *other* commits are *not* attributed to that account, and just say "Phillip Conrad", and have a generic grey icon.
+
+The difference has to do with whether the machine on which the commits were performed was configured to connect to a GitHub account or not.   This is a lesson learned for the future!  We'll cover how to fix this much earlier in the course next time.
+
+It's too late to fix the commits, but it's NOT too late to offer an explanation in part 3 of your report.
+* We are going to look at the data on the `/graphs/contributors` for your repo, but
+* We are going to look *more* at your explanation of that data.
+
+If the data and the explanation match, it's all good.
+
+If you have a team member that you suspect has made lots of commits that are not being attributed to them, 
+scroll through your commit log and see if you can find a few examples.
+
+You can then link to a few of those in part 3 of your report.   For example, the link above shows lots of unattributed commits that have `pc -` in the initials, and show `Phillip Conrad authored and Phillip Conrad committed ` but that are not linked with the `pconrad` account.   If you can find similar data, it's helpful for providing context for team members with fewer commits on the graphs. 
