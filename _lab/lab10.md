@@ -71,6 +71,11 @@ Here are some examples of points to cover.  For each technology or product, prov
   provided in the demo apps.
 * Describe any libraries or open source code that you incorporated (e.g. chat application demos, game engines, etc.) and
   provide a link to where you got them from.
+* If your app is divided into separate parts, e.g. a front-end and back-end in separate repos, describe that here, and why
+  you had to implement it that way.
+  
+Also, if you had significant side-projects (e.g. proofs of concept, skunkworks projects, spikes) that your team worked on
+that are part of your teams effort, but are not part of the main repo, describe that here.
   
 # Part 3: Roles (40 %)
 
@@ -81,14 +86,14 @@ As a starting point, every team member should review the `/graphs/contributors` 
 * <https://github.com/ucsb-cs48-s20/project-s0-t2-env/graphs/contributors>
 * etc.
 
-That page shows graphs of contributions to the repo over time at the level of commits.
+That page shows graphs of contributions to the repo over time at the level of commits. 
+
+Link to that page in your repo.  
 
 Note that this page cannot tell the whole story: just because  team member Alice had 20 commits while Beth had only 5 does not
 necessarily mean that Alice did five times as much work as Beth.  Perhaps both Alice and Beth contributed to the team in
-important ways, and the nature of their contributions was different.  But a disparity between commits of a factor of 5 does
-tell some kind of story, and in your account of each team members contributions, you should help us understand that picture.
+important ways, and the nature of their contributions was different.  Perhaps Beth contributed to significant skunk works project that is not shown, or perhaps her commits were much larger than Alice's individual ones.  In any case, a disparity between commits of a factor of 5 does tell some kind of story, and in your account of each team members contributions, you should help us understand that picture.
 
 If indeed, some team members contributed more than others, this is an opportunity to have an honest conversation 
 about that, and as a team, decide how to tell that story.
-
 
