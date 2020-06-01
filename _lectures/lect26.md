@@ -1,5 +1,5 @@
 ---
-desc: "Last Monday Section: "
+desc: "Last Monday Section: Final Project Report"
 lecture_date: 2020-06-01
 num: lect26
 ready: false
