@@ -22,6 +22,7 @@ In addition to the three parts of the report, here are four other aspects of you
   - When we look at your code, does it have a clear structure?  Or is it spaghetti code, difficult to follow?
   - Is the code reasonably dry? Or does it have lots of copy/pasted parts that could and should have been refactored?
   - Are variables and methods named in ways that make the code clear, or are names chosen haphazardly?
+  - For testing, linting, react storybook (as applicable), minimum or go beyond.
 - Functionality:
   - Does the app address the user's needs?
   - Is it still very basic, or it is more ambitious?
