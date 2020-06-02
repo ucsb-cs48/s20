@@ -89,7 +89,7 @@ Frequently, after a class, the staff will get together and share some of the les
 * If you are getting lost in the weeds of mocking and stubbing while writing integration tests:
   - *refactoring the code* to make it easier to test may be a more effective strategy.
   
-Let's take a moment: what are some other lessons you've learned this quarter?  Let's take 5 minutes and type them into the #lessons-learned channel.  
+Let's take a moment: what are some other lessons you've learned this quarter?  Let's take 5 minutes and type them into the `#lessons-learned` channel.  
 
 * One contribution from each team (include your team name) before we go into breakout groups.
 * At least one more from each team after we go into breakout groups (though you may contribute more now if you like).
