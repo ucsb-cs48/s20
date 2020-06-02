@@ -42,12 +42,41 @@ Moving the final exam grade into the final project grade would give a 45% / 55% 
 
 # ESCIs (Course Evaluations)
 
-As of 2:17pm:
+
+You are likely getting many reminders from the automated system about course evaluations (ESCIs).  I would like to also remind you to please take a moment to enter your feedback about the course.  It is very important.
+
+Response rate as of 2:17pm 06/02/2020:
 
 |Lecture Time|Course ID |	Enrollment Count	|Surveys Completed	|Percent Completed|
 |-|-|-|-|-|
 | TR 3:30pm | CMPSC 48 0200	| 44	| 16 |	36.36% |
 | TR 5pm  | CMPSC 48 0100	| 37	| 9	| 24.32% |
+{:.table .table-sm .table-striped .table-bordered}
+
+
+As it turns out, faculty at my promotion level only get evaluated every three years (i.e. that is the one and only opportunity for a pay raise).     S20 is the last quarter before my performance evaluation, so this is the last chance for feedback from students.     
+
+The numerical scores are important, but even more important are the comments:
+* What have I done in this course that has helped your learning
+* Where can I improve?
+
+Comments such as "this was the best/worst class ever" or "Conrad is the best/worst instructor I've ever had" are helpful to some extent, but they are *more* helpful if they are backed up with at least a few specifics as to *why* you think the course is awesome or terrible.     
+
+It is particularly helpful if you can tie those comments to *learning* rather than to enjoyment.  
+- Somewhat helpful: I really enjoyed/hated this class 
+- **Much more Helpful**: I really learned a lot/not much in this class because *reasons*
+
+Also: it's helpful if you can comment about what was good or bad about my teaching/your learning, rather than 
+what is good or bad about *me*.    If you have comments on me (or any of your other instructors) *as a person*, they are relevant *if and only if they impacted your learning*.  Try to focus on that.
+
+Finally, please be aware of implicit biases at work.
+
+* I assume that most of you think of yourselves as fair minded people, and that you *do your best* to be unbiased by 
+  factors such as race, gender, ethnicity, identity, etc. (i.e. factors that should not impact performance as an instructor.)
+* In spite of this, there are [many studies](https://teaching.pitt.edu/wp-content/uploads/2019/11/OMET-frequently_quoted_bias_annotated_bibliography.pdf) that indicate that students tend to evaluate instructors of different
+  identities differently.    Even among people of good intentions, it doesn't always turn out to be a level playing field.
+  
+Focusing on your learning rather than your expectations may be helpful in setting aside those biases.
 
 # Rest of time today: Time to work
 
