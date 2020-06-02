@@ -1,5 +1,5 @@
 ---
-desc: "Final Tuesday Lecture: "
+desc: "Final Tuesday Lecture: Notes on Final Course Grades, ESCIS, Lessons Learned"
 lecture_date: 2020-06-02
 num: lect27
 ready: true
