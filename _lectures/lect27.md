@@ -78,5 +78,21 @@ Finally, please be aware of implicit biases at work.
   
 Focusing on your learning rather than your expectations may be helpful in setting aside those biases.
 
+# Briefly: Some Lessons Learned.
+
+Frequently, after a class, the staff will get together and share some of the lessons learned.   A few examples:
+
+* During a rebase, *just rebase*.  Don't make changes (i.e. fix bugs, add features) during a rebase.  Only focus on 
+  fixing merge conflicts.    Make your changes to fix bugs or add features before the rebase, or after the rebase,
+  but *not during*.
+  
+* If you are getting lost in the weeds of mocking and stubbing while writing integration tests:
+  - *refactoring the code* to make it easier to test may be a more effective strategy.
+  
+Let's take a moment: what are some other lessons you've learned this quarter?  Let's take 5 minutes and type them into the #lessons-learned channel.  
+
+* One contribution from each team (include your team name) before we go into breakout groups.
+* At least one more from each team after we go into breakout groups (though you may contribute more now if you like).
+
 # Rest of time today: Time to work
 
