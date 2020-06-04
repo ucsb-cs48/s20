@@ -7,6 +7,13 @@ ready: false
 
 # Announcements
 
+## Applications for 190J and Paid Learning Assistants
+
+* Information: <https://cs.ucsb.edu/education/undergrad/ULA-application>
+* Application: <http://bit.ly/CS-ULA-Application-Fall2020>
+* List of Courses: <http://bit.ly/CS-ULA-Info-Fall2020>
+
+
 ## ESCI Reminder (Course Evaluations)
 
 You are likely getting many reminders from the automated system about course evaluations (ESCIs).  I would like to also remind you to please take a moment to enter your feedback about the course.  It is very important.
