@@ -73,6 +73,8 @@ Here's the course description for CS48, turned into a bullet list:
 
 Note that "web development" isn't on the list; we learned some of that, but that was a *means to an end*.
 
+We've touched on all of the topics in the list, admittedly emphasizing some more than others.
+
 Where I see some real mastery is:
 * **professional development practices**
 * **team oriented design and development**
