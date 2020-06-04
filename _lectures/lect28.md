@@ -52,3 +52,33 @@ This doesn't have to be super long or detailed; just a high level description.
   - of what *is* still left to be done, what is *really* necessary?
 * Determine:
   - Most crucial tech blockers
+
+# Final Thoughts
+
+
+I have been **really pleased** with what I've been seeing when I stop in your groups.
+
+Here's the course description for CS48, turned into a bullet list:
+
+> Team-based project development. Topics include 
+>
+> * software engineering and professional development practices, 
+> * interface design, 
+> * advanced library support
+> * techniques for team-oriented design and development
+> * testing and test-driven development
+> * software reliability and robustness. 
+>
+> Students present and demonstrate final projects.
+
+Note that "web development" isn't on the list; we learned some of that, but that was a *means to an end*.
+
+Where I see some real mastery is:
+* **professional development practices**
+* **team oriented design and development**
+
+I pop in on breakout rooms and I hear you talking about different feature branches and pull requests, QA and production, front-end and back-end, issues, acceptance criteria and your kanban board. 
+
+I no longer hear "student teams".   What I hear is the sounds of software industry professionals at work.
+
+I'm really proud of what we've accomplished this quarter.  I hope you are too.
