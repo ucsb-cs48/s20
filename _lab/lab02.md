@@ -3,7 +3,7 @@ assigned: 2020-04-21 16:00
 desc: MVP Demo Video
 due: 2020-05-07 15:00
 layout: lab
-num: lab01
+num: lab02
 ready: true
 github_org: ucsb-cs48-s20
 gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=3919993
